@@ -1,0 +1,6 @@
+body,div,ul,ol,li,h1,h2,h3
+{margin:0;padding:0;}
+body{text-align: center;font-family: Helvetica Neue,Helvetica,Arial,Microsoft Yahei}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;}

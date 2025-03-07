@@ -1,0 +1,279 @@
+/* 外联css权重最低 但一般采用此方法 最好用.加上父级元素*/
+    .daohang1 {
+        margin: 0;  
+        padding: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .daohang1 .wrap {
+        max-width: 1150px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .daohang1 .wrap  .left {
+        float: left;
+    }
+
+    .daohang1 .wrap  .right {
+        display: flex; 
+        /* float: right; */
+        margin-left: 40%;
+        font-size: 1.7ch;
+    }
+
+    .daohang1 .wrap .right .search button{
+        position: relative;
+        margin-top: 5%;
+        width: 85px;
+        height: 30px;
+        border-radius: 25px 25px 25px 25px;    
+        background-color: rgba(255, 255, 255, 0.2); 
+        border: none; 
+        cursor: pointer; 
+        transition: background-color 0.3s; 
+    }
+
+    .daohang1 .wrap .right .search button:hover{
+        background-color: rgba(0, 0, 255, 0.445);
+    }
+
+    .search-input:focus{
+        outline: none; /* 移除默认的聚焦轮廓 */
+        box-shadow: none; 
+        border-color: inherit; 
+        display: inline-block;
+    }
+
+    .daohang1 .wrap  li {
+        position: relative;
+        float: left;
+        color: #424242;
+        margin-left: 5px; 
+    }
+
+    .daohang1 li{
+        color: whitesmoke;
+    }
+
+    .daohang1 a{
+        color: whitesmoke;
+    }
+
+    .searchchange {
+        display: flex; /* 启用Flexbox布局 */
+        transition: transform 0.3s ease-in-out;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .searchchange:hover {
+        transform: translateY(1px); 
+    }
+
+    .wrap1 {
+        width: 1150px;
+    }   
+
+    .wrap1 .right1 li {
+        font-size: 2.2ch;
+        font-weight: 900;
+    }
+
+    .wrap1 {
+        height: 100px;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        max-width: 1150px;
+        margin: 0 auto;
+        margin-top: 2%;
+        width: 100%;
+    }
+ /* 动态响应 响应式网页设计*/
+    @media (min-width: 1150px) {
+        .wrap1 {
+            width: 1150px;
+        }
+    }
+
+    @media (min-width: 1150px) {
+        .wrap {
+            width: 1150px;
+        }
+    }
+
+    .left1, .right1 {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        gap: 0px;
+    }
+
+    .left1 img {
+        height: 60px; 
+    }
+
+    .right1 li {
+        margin-left: 0px; 
+        list-style-type: none;
+    }
+
+    .right1 a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .right1 a img {
+        height: 20px; 
+        margin-right: 5px;
+    }
+
+    .centered-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .centered-text span {
+        white-space: nowrap;
+        line-height: 1; 
+    }
+
+    .special-item a:hover {  
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    } 
+
+    .top-margin {  
+        margin-top: 10px;  
+    }
+
+    .top-margin1 {  
+        margin-top: 15px;  
+    }
+
+    .top-margin11 {  
+        margin-top: 15px;  
+    }
+
+    .transition-effect {  
+        transition: transform 1.5s ease-in-out 0.5s;  
+    }  
+    
+    .circle-container {  
+        z-index: 2;
+        position: relative; /* 或使用 absolute/fixed 根据需要，但这里用 relative 更通用 */  
+        display: flex; /* 或 flex，取决于你是否需要容器自适应内容宽度 */  
+        padding: 0; /* 移除默认的padding */  
+        width: 170px;
+        top: -280px;
+    }  
+      
+    .circle-list {  
+        list-style-type: none; /* 移除列表项前的默认标记 */  
+        margin: 0; /* 移除默认的margin */  
+        padding: 0; /* 移除默认的padding */  
+        display: flex; /* 使用Flexbox布局使li元素并排显示 */ 
+        z-index: 2; 
+    }  
+      
+    .circle {  
+        width: 13px; /* 设置圆的宽度 */  
+        height: 13px; /* 设置圆的高度 */  
+        background-color: rgb(201, 201, 201); /* 设置圆的背景颜色为红色 */  
+        border-radius: 50%; /* 将矩形转换为圆形 */  
+        /* 如果需要，可以添加 margin 或其他样式来调整圆之间的间距或位置 */  
+        z-index: 2;
+        margin-left: 10px;
+        transition: background-color 1.5s ease-in-out;
+    }
+
+    .circle.activecircle { 
+        background-color: rgb(38,107,255);
+    }
+
+    .displaynone{
+        display: none;
+    }
+
+    .link-with-line {  
+        position: relative; /* 设置相对定位，以便伪元素可以相对于它定位 */  
+    }  
+      
+    .link-with-line::after {  
+        content: ""; /* 伪元素需要content属性，即使它是空的 */  
+        position: absolute; /* 绝对定位 */  
+        bottom: -10px; /* 紧贴元素的底部 */  
+        left: 0; /* 从元素的左侧开始 */  
+        width: 40px; /* 横线宽度 */  
+        height: 3px; /* 横线厚度 */  
+        background-color: rgb(30,144,255); /* 横线颜色，可以根据需要修改 */  
+        margin-left: 22px;
+    }
+
+    .link-with-line1 {  
+        position: relative; /* 设置相对定位，以便伪元素可以相对于它定位 */  
+    }  
+      
+    .link-with-line1::after {  
+        content: ""; /* 伪元素需要content属性，即使它是空的 */  
+        position: absolute; /* 绝对定位 */  
+        bottom: -10px; /* 紧贴元素的底部 */  
+        left: 0; /* 从元素的左侧开始 */  
+        width: 40px; /* 横线宽度 */  
+        height: 3px; /* 横线厚度 */  
+        background-color: rgb(30,144,255); /* 横线颜色，可以根据需要修改 */  
+        margin-left: 35px;
+    }
+
+    .gradient-div {  
+        /* 设置渐变背景 角度 开始颜色 结束颜色*/  
+        background-image: linear-gradient(45deg, rgb(237, 208, 154), rgb(189, 150, 110));
+    }
+        
+    @media (max-width: 1200px) {  
+        body {  
+            transform:  scale(0.8);
+        }
+    }
+
+    .button1{
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+
+    .button1:focus { 
+        outline: none;
+        box-shadow: none;
+        border: none;
+    }
+
+    .button1:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+   /* filter 图像操作*/
+
+    /* .imgfather {  
+        transition: opacity 0.5s ease, filter 0.5s ease; 
+    } 
+
+ 
+    .imgfather:hover{
+        filter: opacity(0.8)brightness(110%);
+    } */
+
+    .image-container:hover{
+        filter: opacity(0.8)brightness(105%);
+    }
+
+    .image-container:hover .color22 { 
+        background-color: rgba(0, 34, 255, 0.32);
+    }  
+    
+    .color22 {  
+         background-color: #00000038;
+    }  

@@ -1,0 +1,1962 @@
+<!-- @2024qiuyi all rights reserved ® jiyun software™ -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <!-- 改成中文 否则显示页面翻译-->
+<head>
+    <meta charset="UTF-8">
+    <!-- 编码形式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <!-- 充满宽度 缩放为1-->
+    <title>上海市金山区人民政府</title>
+    <!-- 显示在页面头部的标签头-->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="all.css">
+    <!-- 加载外置css js-->
+    <link rel="icon"  href="https://jinshan.gov.cn/assets/img/ico/favicon.png">
+    <!-- 显示在页面头部的标签头的图标-->
+    <style>  
+    /*权重为中的css添加 */
+        html {  
+            margin: 0;  
+            padding: 0;  
+            height: 80%;
+        }
+        
+        body {  
+            background-image: url('0625.png');  
+            background-position: center;   
+            background-repeat: no-repeat;   
+            background-size: cover;
+             /*动态缩放至页面合适尺寸 */
+            background-color: rgb(241,245,249);
+        }
+
+        .input{
+            background-color: none;
+            border: none;
+            border-radius: 7px 0px 0px 7px;
+            /*圆角 */
+            outline: none;
+            /*移除轮廓 */
+            width: 0px;
+            height: 25px ; 
+            padding-left: 8%;
+            background-color:rgba(245, 245, 245, 0.3);
+            flex: 0 0 0 ;
+            /*伸缩比例、伸缩基准值和最小长度 */
+        }
+
+        .input:focus{
+            outline: none;
+        }
+
+        .searchbar:hover .linkc{
+            background-color: rgba(0, 0, 255, 0.473);
+        }
+
+        .searchbar{
+            display: flex;  
+            margin-top: 2%;
+            width: 150px;
+            justify-content: flex-end; 
+            /*水平向右对齐 */
+        }
+
+        .linkc {  
+            display: inline-flex;  
+            align-items: center; 
+            /*竖直居中 */
+            padding: 0 0px;  
+            height: 25px;  
+            width: 70px;
+            border-radius: 0 7px 7px 0;  
+        }
+
+        .special-item1 a:hover {  
+            /*伪元素 覆盖显示 */
+            background-color: rgba(0,0,0,0.15);
+            border-radius: 10px;
+            padding: 7% 0;
+        }
+
+        .govDepartments {  
+            font-size: 17px; 
+            color: rgb(139, 139, 139); 
+            border: 1px solid rgb(186, 186, 186);
+            width: 400px;
+        } 
+
+        .govDepartments:focus {  
+            outline: none; 
+            /* 移除轮廓 */  
+        }
+
+        .govDepartments:focus {
+            background-color: rgb(255, 255, 203);
+        }
+
+        .maxdiv:hover {  
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);  
+        }
+    </style>  
+</head>
+<body>
+    <!-- 导航总 -->
+     <div class="daohang1">
+        <!-- 会消失的导航 -->
+        <div class="wrap">
+            <div class="left">
+                <li style="color: whitesmoke;font-size: 1.7ch;">
+                    上海城市精神：海纳百川、追求卓越、开明睿智、大气谦和
+                </li>
+            </div>
+            <div class="right">
+                <!-- 搜索框 -->
+                <div class="searchbar" style="margin-left: 15px;">  
+                    <!--placeholder 原本就在输入框中的内容 点击消失 自动输入是value  opacity是不透明度 -->
+                    <input type="text" class="input" title="请输入关键字查询" placeholder="站内搜索" id="searchInput" style="opacity: 0;
+                        width: 0; transition: opacity 0.3s, width 0.3s;flex-shrink: 0;padding: 5px 10px;position: relative;top: -10%;">
+                        <!--flex-shrink: 0 禁止挤压容器  target="_blank" 在新页面打开-->
+                        <a href="#" class="linkc" style="flex-shrink: 0;background-color: rgba(214, 210, 252, 0.468);
+                            border-radius: 10px;padding: 5px 10px;position: relative;top: -10%;" id="searchLink" target="_blank">  
+                            <img src="search.png" alt="搜索" title="搜索" style="height: 23px; "> 搜一下  
+                        </a>  
+                </div>
+                <!-- 搜索框结束 -->
+                <li >
+                    <a href="#" title="无障碍">无障碍</a>
+                </li>
+                <li>
+                    <span>|</span>
+                    <a href="#"title="关怀版">关怀版</a>
+                </li>
+                <li>
+                    <span>|</span>
+                    <a href="#"title="繁体">繁体</a>
+                </li>
+                <li>
+                    <span>|</span>
+                    <a href="https://en.jinshan.gov.cn/" title="ENGLISH" target="_blank">ENGLISH</a>
+                </li>
+                <li>
+                    <span>|</span>
+                    <a href="https://www.gov.cn/" title="中国政府网" target="_blank">中国政府网</a>
+                </li>
+                <li>
+                    <span>|</span>
+                    <a href="https://www.shanghai.gov.cn/" title="中国上海" target="_blank">中国上海</a>
+                </li>
+                <li class="shgj" style="display: flex;align-items: center;margin-top: -1.5%;">
+                    <span>|</span>
+                    <a href="https://english.shanghai.gov.cn/" title="上海国际服务门户" target="_blank" 
+                        class="centered-text" style="margin-left: 5px;">
+                        <span>上海国际</span>
+                        <span>服务门户</span>
+                    </a>
+                    <span style="margin-left: 5px">|</span>
+                </li>
+                <li>
+                    <a href="https://hd.jinshan.gov.cn/js-interaction/biz/user/index" title="个人中心" target="_blank">
+                        <!--alt是图片无法加载后显示的内容 -->
+                        <img src="touxiang.png" alt="wu" style="width: 26px;margin-top: 50%;">
+                    </a>
+                </li>
+            </div>
+        </div>
+    </div>
+    <!-- 会消失的导航结束 -->
+    <!--zindex让元素在任何元素之上 定位top 使其在一定范围内稳定居于屏幕固定位置 -->
+    <!-- 不会消失的导航 -->
+    <div id="wrap1" style="position: sticky;top: 0;z-index: 1000">
+     <div class="wrap1">
+        <div class="left1">
+            <li>
+                <a href="https://jinshan.gov.cn/index.html" title="上海市金山区人民政府">
+                    <img src="https://www.jinshan.gov.cn/assets/img/Logo.png" alt="wu" style="width: 400px;height: 80px;">
+                </a>
+            </li>
+        </div>  
+        <div  class="right1" style="padding-right: 5%;flex-shrink: 0;gap: 0px;">
+            <li  style="margin-left: 10px;margin-right: 5px;">
+                <!--&nbsp是html解析后的空格 &nbsp; 也可以加上; display: inline-block; 块级元素可以在一行中显示-->
+                <a href="https://jinshan.gov.cn/index.html" title="首页" id="wrap2" target="_blank "style="display: inline-block;
+                position: relative; 
+                background-color: rgba(0,0,0,0.15);border-radius: 10px; padding: 10% 0;" >&nbsp&nbsp&nbsp首页&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class="special-item1">
+                <a href="https://jinshan.gov.cn/ywdt/" title="要闻动态" target="_blank">&nbsp&nbsp要闻动态&nbsp&nbsp</a>
+            </li>
+            <li class="special-item1">
+                <a href="https://jinshan.gov.cn/zwgk/" title="政务公开" target="_blank">&nbsp&nbsp政务公开&nbsp&nbsp</a>
+            </li>
+            <li class="special-item1">
+                <a href="https://jinshan.gov.cn/hdpt/" title="互动平台" target="_blank">&nbsp&nbsp互动平台&nbsp&nbsp</a>
+            </li>
+            <li class="special-item1">
+                <a href="https://jinshan.gov.cn/shfw/" title="生活服务" target="_blank">&nbsp&nbsp生活服务&nbsp&nbsp</a>
+            </li>
+            <li class="special-item1">
+                <a href="https://jinshan.gov.cn/zjjs/" title="走进金山" target="_blank">&nbsp&nbsp走进金山&nbsp&nbsp</a>
+            </li>
+            <li class="special-item" >
+                <a href="https://www.jinshan.gov.cn/askJS/index.html#ask/query=" title="智能问答" target="_blank" 
+                    style="display: block;width: 100%;background-color: rgb(255, 191, 0);border-radius: 10px; padding: 7%;">
+                    <img src="smartqanda.png" alt="智能问答" style="position: relative;top :4px;left: 4px;">智能问答
+                </a>
+            </li>
+        </div>
+    </div>
+    <!-- 不会消失的导航结束 -->
+</div>
+<!-- 整体中间 -->
+<div style="height: 900px;position: relative;display: inline-block;place-items: center;">
+    <!-- 左边整体 -->
+    <div style="height: 900px;width: 870px ;display: flex;display: inline-block;position: relative;" >
+        <!-- 一网通办总 -->
+        <div style="background-color: rgb(255, 255, 255);border-radius: 10px;height: 300px;" class="maxdiv" > 
+            <!-- 除了底下那一行 -->
+            <div style="display: flex;border-radius: 10px 10px 0 0;">
+                <!-- 一网通办和数量 -->
+                <div>
+                    <!-- 一网通办 -->
+                    <div style="margin-bottom: 5%;padding: 5% 20%;flex: 1;border-radius: 10px 0 7px 0;" class="gradient-div">
+                        <a href="http://zwdt.sh.gov.cn/govPortals/region/SH00JS" target="_blank" title="一网通办" >
+                            <img src="https://www.jinshan.gov.cn/assets/img/ywtb.png" alt="一网通办" style="max-width: 100%; 
+                                height: auto; width: 350px;">
+                        </a>
+                    </div>
+                    <!-- 一网通办结束 -->
+                    <!-- 数据 -->
+                    <div style="flex: 1;margin-bottom: 15px;">
+                        <ul style="display: flex;">
+                            <!--都为flex1 平均分配空间 -->
+                            <li style="flex: 1;" class="middle1">
+                                <div style="font-size:3ch;color: rgb(189,150,110);margin-bottom: 10px;">
+                                    6666
+                                </div>
+                                <span style="font-size: 1.5ch;">
+                                    办理事项
+                                </span>
+                            </li>
+                            <li style="flex: 1;">
+                                <div style="font-size:3ch;color: rgb(189,150,110);margin-bottom: 10px;">
+                                    114
+                                </div>
+                                <span style="font-size: 1.5ch;">
+                                    网上预约
+                                </span>
+                            </li>
+                            <li style="flex: 1;">
+                                <div style="font-size:3ch;color: rgb(189,150,110);margin-bottom: 10px;">
+                                    51
+                                </div>
+                                <span style="font-size: 1.5ch;">
+                                    当日办理
+                                </span>
+                            </li>
+                            <li style="flex: 1;">
+                                <div style="font-size:3ch;color: rgb(189,150,110);margin-bottom: 10px;">
+                                    4
+                                </div>
+                                <span style="font-size: 1.5ch;">
+                                    等待办理
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 数据结束 -->
+                </div>
+                <!-- 一网通办和数量结束 -->
+                <!-- 智能推荐 市民服务 企业服务 -->
+                <div style="border-radius: 0px 10px 0 0;">  
+                    <!-- 智能推荐 -->
+                    <div style="margin-top: 10px;margin-bottom: 10px;margin-left: 15px;margin-right: 15px;">
+                        <div style="background-color: rgba(239, 239, 239,0.8); border-radius: 5px; display: flex;height: 70px;">
+                            <div style="display: flex; align-items: center; justify-content: center;margin-left: 20px;">  
+                                <span style="font-size: 2.5ch;color: rgb(189,150,110);font-weight: bolder;">智能推荐&nbsp;</span>  
+                                <img src="like111.png" alt="智能推荐" style="width: 25px; height: auto;">  &nbsp;
+                            </div>  
+                            <!-- 滚动部分 -->
+                            <div   style="height: 60px;width: 275px;position: relative;"><!--overflow: hidden;超出部分不显示 -->
+                                <div style="height: 55px;width: 350px;margin-top: 8px;margin-bottom: 8px;overflow: hidden;
+                                    position: relative;"id="box">
+                                    <!--滚动的绝对定位-->
+                                    <ul class="scrolling-list" id="list" style="position: absolute;list-style: none;white-space: nowrap;left: 0;padding-left: 0;" >
+                                        <li style="margin-bottom: 7px;margin-left: -80px;">
+                                            <a href="https://zwdtuser.sh.gov.cn/uc/login/login.jsp" target="_blank" title="医疗报销一件事" class="change" style="color: #545454;">
+                                                <span>・</span>
+                                                医疗报销一件事
+                                            </a>
+                                        </li>
+                                        <li style="margin-bottom: 7px;">
+                                            <a href="https://zwdt.sh.gov.cn/govPortals/bsfw/item/ee801126-3d77-401e-9ccc-d341b25fa35d" target="_blank"
+                                                title="出租车驾驶员从业资格申办" class="change" style="color: #545454;">
+                                                <span>・</span>
+                                                出租车驾驶员从业资格申办
+                                            </a>
+                                        </li>
+                                        <li style="margin-bottom: 7px;margin-left: -17px;" >
+                                            <a href="https://zwdt.sh.gov.cn/smzy/shell_pc/xny" target="_blank" title="新能源汽车专用牌照申领" class="change" style="color: #545454;">
+                                                <span>・</span>
+                                                新能源汽车专用牌照申领
+                                            </a>
+                                        </li>
+                                        <li style="margin-bottom: 7px;">
+                                            <a href="https://zwdt.sh.gov.cn/smzy/shell_pc/scene_wapper/wegnote?id=155870" target="_blank" class="change" style="color: #545454;"
+                                                title="阶梯水电气一户多人口申报">
+                                                <span>・</span>
+                                                阶梯水电气一户多人口申报
+                                            </a>
+                                        </li>
+                                        <li style="margin-bottom: 7px;margin-left: -80px;">
+                                            <a href="https://zwdt.sh.gov.cn/govPortals/column/gjjzhjj/index.html" target="_blank" title="公积金智慧缴交" class="change" style="color: #545454;">
+                                                <span>・</span>
+                                                公积金智慧缴交
+                                            </a>
+                                        </li>
+                                        <li style="margin-bottom: 7px;margin-left: -80px;">
+                                            <a href="https://zwdtuser.sh.gov.cn/uc/login/login.jsp" target="_blank" title="医疗报销一件事" class="change" style="color: #545454;">
+                                                <span>・</span>
+                                                医疗报销一件事
+                                            </a>
+                                        </li>
+                                        <li style="margin-bottom: 7px;">
+                                            <a href="https://zwdt.sh.gov.cn/govPortals/bsfw/item/ee801126-3d77-401e-9ccc-d341b25fa35d" target="_blank" style="color: #545454;"
+                                                title="出租车驾驶员从业资格申办" class="change">
+                                                <span>・</span>
+                                                出租车驾驶员从业资格申办
+                                            </a>
+                                        </li>
+                                        <li style="margin-bottom: 7px;margin-left: -17px;">
+                                            <a href="https://zwdt.sh.gov.cn/smzy/shell_pc/xny" target="_blank" title="新能源汽车专用牌照申领" class="change" style="color: #545454;">
+                                                <span>・</span>
+                                                新能源汽车专用牌照申领
+                                            </a>
+                                        </li>
+                                        <li style="margin-bottom: 7px;">
+                                            <a href="https://zwdt.sh.gov.cn/smzy/shell_pc/scene_wapper/wegnote?id=155870" target="_blank" class="change" style="color: #545454;"
+                                                title="阶梯水电气一户多人口申报">
+                                                <span>・</span>
+                                                阶梯水电气一户多人口申报
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>  
+                            </div>
+                            <!-- 滚动部分结束 -->    
+                        </div>  
+                    </div>
+                    <!-- 智能推荐结束 -->
+                    <!-- 市民服务 -->
+                    <div style="display: flex;margin-top: 15px;margin-bottom: 10px;margin-right: 15px;margin-left: 10px;">
+                        <div style="display: flex ;font-size: 18px;font-weight: bold;color: #545454; position: relative;background-color: #e4e4e4a9;border-radius: 5px;padding: 3px 5px 3px 5px;">
+                            <img src="touxiang11.png" alt="市民服务" width="30px" >
+                                <div style="margin-top: 3px;">&nbsp市民服务</div>
+                        </div>
+                        <div style="margin-top: 8px;margin-left: 15px;">
+                            <ul style="display: flex;">
+                                <li style="margin-left: 5px;color: #545454;">
+                                    <span style="margin-right: 5px;">-</span>
+                                    <a href="https://zwdt.sh.gov.cn/smzy/shell_pc/birth" target="_blank" title="小孩出生" class="change" style="color: #545454;">
+                                        小孩出生
+                                    </a>
+                                </li>
+                                <li style="margin-left: 5px;color: #545454;">
+                                    <span style="margin-left: 5px;margin-right: 5px;">-</span>
+                                    <a href="https://www.jinshan.gov.cn/jyj-rxzs/index.html" target="_blank" title="入学招生" class="change" style="color: #545454;">
+                                        入学招生
+                                    </a>
+                                </li>
+                                <li style="margin-left: 5px;color: #545454;">
+                                    <span style="margin-left: 5px;margin-right: 5px;">-</span>
+                                    <a href="https://mzj.sh.gov.cn/marryweb/index.html" target="_blank" title="婚姻登记" class="change" style="color: #545454;">
+                                        婚姻登记
+                                    </a>
+                                </li>
+                                <li style="margin-left: 5px;color: #545454;">
+                                    <span style="margin-left: 5px;margin-right: 5px;">-</span>
+                                    <a href="https://zwdt.sh.gov.cn/smzy/shell_pc/socialhelp" target="_blank" title="社会救助" class="change" style="color: #545454;">
+                                        社会救助
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 市民服务结束 -->
+                    <!-- 企业服务 -->
+                    <div style="display: flex;margin-bottom: 10px;margin-right: 15px;margin-left: 10px;">
+                        <div style="display: flex;font-size: 18px;background-color: #e4e4e4a9;border-radius: 5px;padding: 5px;font-weight: bold;color: #545454;">
+                            <img src="qiye11.png" alt="企业服务" width="24px" height="24px" >
+                            &nbsp&nbsp企业服务
+                        </div>
+                        <div style="margin-top: 8px;margin-left: 15px;">
+                            <ul style="display: flex;">
+                                <li style="margin-left: 5px;">
+                                    <span style="margin-right: 5px;">-</span>
+                                    <a href="https://yct.sh.gov.cn/portal_yct/" target="_blank" title="开办企业" class="change"style="color: #545454;">
+                                        开办企业
+                                    </a>
+                                </li>
+                                <li style="margin-left: 5px;">
+                                    <span style="margin-left: 5px;margin-right: 5px;">-</span>
+                                    <a href="https://zwdtuser.sh.gov.cn/uc/login/login.jsp?redirect_uri=https%3a%2f%2fzwdt.sh.gov.cn%2fqykj%2fshspace%2floginsso%2fin%3ftype%3dbsfr%26callback%3dhttps%3a%2f%2fzwdt.sh.gov.cn%2fqykj%2fshell_oc%2fscene_wapper%2fescene-01%3fid%3d125781"
+                                        target="_blank" title="税费申报" class="change" style="color: #545454;">
+                                        税费申报
+                                    </a>
+                                </li>
+                                <li style="margin-left: 5px;">
+                                    <span style="margin-left: 5px;margin-right: 5px;">-</span>
+                                    <a href="https://zwdt.sh.gov.cn/govPortals/column/qygpzzbglbyjs/index.html" target="_blank" title="证照变更" class="change" style="color: #545454;">
+                                        证照变更
+                                    </a>
+                                </li>
+                                <li style="margin-left: 5px;">
+                                    <span style="margin-left: 5px;margin-right: 5px;">-</span>
+                                    <a href="https://zwdtuser.sh.gov.cn:7443/tsoauth/login.jsp" target="_blank" title="注销企业" class="change" style="color: #545454;">
+                                        注销企业
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 企业服务结束 -->
+                </div>
+            </div>
+            <!-- 除了底下那一行结束 -->
+            <!-- 底下那一行 -->
+            <div style="margin-top: 0px;margin-left: 10px;margin-right: 10px;">
+                <ul style="display: flex;width: 850px;">
+                    <li class="zoomable" style="flex: 1;border: 1px solid rgb(191, 191, 191);border-radius: 10%;margin-right: 5px;
+                        transform :0.3s ease;height: 95px;padding: 8px 8px 0 8px;" >
+                        <a href="https://yjs.jinshan.gov.cn/jszwdt/jszwdt/jsyjs/onething" target="_blank" title="高效办成“一件事”" >
+                            <img src="Magic11.png" alt="高效办成“一件事”" width="50px">
+                            <p style="margin-top: -5px;color: #545454;">
+                                高效办成
+                                <br>
+                                “一件事”
+                            </p>
+                        </a>                        
+                    </li>
+                    <li class="zoomable" style="flex: 1;border: 1px solid rgb(191, 191, 191);border-radius: 10%;margin-right: 5px;
+                        transform :0.3s ease;height: 95px;padding: 8px 8px 0 8px;">
+                        <a href="https://ywtb.jinshanqu.net/f/kjzy" target="_blank" title="科技资源管理平台">
+                            <img src="writedoc11.png" alt="科技资源管理平台" width="45px">
+                            <p style="margin-top: 1px;color: #545454;">
+                                科技资源
+                                <br>
+                                管理平台
+                            </p>
+                        </a>
+                    </li>
+                    <li class="zoomable" style="flex: 1;border: 1px solid rgb(191, 191, 191);border-radius: 10%;margin-right: 5px;
+                        transform :0.3s ease;height: 95px;padding: 8px 8px 0 8px;">
+                        <a href="https://zwdtuser.sh.gov.cn/uc/login/login.jsp" target="_blank" title="拿地即开工">
+                            <img src="land11.png" alt="拿地即开工" width="45px">
+                            <p style="margin-top: 12px;color: #545454;" >
+                                拿地即开工
+                            </p>
+                        </a>
+                    </li>
+                    <li class="zoomable" style="flex: 1;border: 1px solid rgb(191, 191, 191);border-radius: 10%;margin-right: 5px;
+                        transform :0.3s ease;height: 95px;padding: 8px 8px 0 8px;">
+                        <a href="https://wqrc.jinshanqu.net/f/" target="_blank" title="人才服务平台">
+                            <img src="doc11.png" alt="人才服务平台" width="45px">
+                            <p style="margin-top: 1px;color: #545454;" >
+                                人才服务
+                                <br>
+                                平台
+                            </p>
+                        </a>
+                    </li>
+                    <li class="zoomable" style="flex: 1;border: 1px solid rgb(191, 191, 191);border-radius: 10%;margin-right: 5px;
+                        transform :0.3s ease;height: 95px;padding: 8px 8px 0 8px;">
+                        <a href="https://ywtb.jinshanqu.net/f/ldzl/js/1120" target="_blank" title="人才服务平台">
+                            <img src="ymtb.jpeg" alt="长三角一网通办" width="100px" style="margin-bottom: 7px;">
+                            <p style="margin-top: 1px;color: #545454;" >
+                                长三角
+                                <br>
+                                一网通办
+                            </p>
+                        </a>
+                    </li>
+                    <li class="zoomable" style="flex: 1;border: 1px solid rgb(191, 191, 191);border-radius: 10%;margin-right: 5px;
+                        transform :0.3s ease;height: 95px;padding: 8px 8px 0 8px;">
+                        <a href="https://ywtb.jinshanqu.net/ywcr" target="_blank" title="一网畅荣">
+                            <img src="24gl-folderOpen11.png" alt="一网畅荣" width="45px">
+                            <p style="margin-top: 11px;color: #545454;" >
+                                一网畅荣
+                            </p>
+                        </a>
+                    </li>
+                    <li class="zoomable" style="flex: 1;border: 1px solid rgb(191, 191, 191);border-radius: 10%;margin-right: 5px;
+                        transform :0.3s ease;height: 95px;padding: 8px 8px 0 8px;">
+                        <a href="https://ywtb.jinshanqu.net/f" target="_blank" title="行政审批提前服务">
+                            <img src="docquary11.png" alt="行政审批提前服务" width="45px">
+                            <p style="margin-top: 1px;color: #545454;" >
+                                行政审批
+                                <br>
+                                提前服务
+                            </p>
+                        </a>
+                    </li>
+                    <li class="zoomable" style="flex: 1;border: 1px solid rgb(191, 191, 191);border-radius: 10%;
+                        transform :0.3s ease;height: 95px;padding: 8px 8px 0 8px;">
+                        <a href="https://www.jinshan.gov.cn/wbxkt/index.html" target="_blank" title="网办鑫课堂视频导办">
+                            <img src="vedio11.png" alt="网办鑫课堂视频导办" width="45px">
+                            <p style="margin-top: 1px;color: #545454;">
+                                网办鑫课堂
+                                <br>
+                                视频导办
+                            </p>
+                        </a> 
+                    </li>
+                </ul>
+            </div>
+            <!-- 底下那一行结束 -->
+        </div>
+        <!-- 一网通办总结束 -->
+        <!-- 今日金山 -->
+        <div style="background-color: rgb(255, 255, 255);height: 380px;margin-top: 10px;border-radius: 10px;" class="maxdiv">
+            <!-- 上面一条 -->
+            <div style="display: flex;background-color: #fff;border-radius: 10px;height: 75px;">
+                <div style="width: 100px;height: 40px;background-color: #266bff;margin: 10px;padding-right: 30px;
+                    padding-top: 10px;padding-bottom: 10px;padding-left: 15px;border-radius: 7px;position: relative; " class="tricycle">
+                    <div style="font-size: 25px;float: left;color: white;">今日</div>
+                    <div style="float: right;color: white;">
+                        07/22 <br>
+                        金山
+                    </div>
+                    <style>  
+                        /* 伪元素实现小三角形 */ 
+                        .tricycle::after {  
+                            content: '';    /* 不可以省略 */ 
+                            position: absolute;  
+                            right: 0px; /* 调整为负数，使其从div右侧向外延伸 */  
+                            top: -1px; /* 调整为与div的padding-top相同 */  
+                            width: 0;  
+                            height: 0;  
+                            border-right: 17px solid rgb(255, 255, 255); /* 调整边框厚度以模拟宽度 */  
+                            border-top: 32px solid transparent; /* 顶部边框高度为div高度的一半 */  
+                            border-bottom: 32px solid transparent; /* 底部边框高度同样 */  
+                        }  
+                    </style> 
+                </div>
+                <div style=" width: 710px;height: 58px;margin-top: 10px;display: flex;margin-left: -18px;border-radius: 7px;border: 1px solid rgb(196, 196, 196);">
+                    <!--应对超长文本text-overflow: ellipsis;使超出长度都以...呈现 white-space: nowrap;禁止换行 -->
+                    <a href="https://www.jinshan.gov.cn/ywdt-zhxx/20240717/862635.html" target="_blank" 
+                        title="区委区政府季度工作会议暨金山区落实“南北转型”战略要求工作领导小组会议举行" style="margin-top: 15px; 
+                        font-size: 18px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;letter-spacing: 3px;margin-left: 18px;color: #545454;" class="change">
+                        区委区政府季度工作会议暨金山区落实“南北转型”战略要求工作领导小组会议举行
+                    </a>
+                </div>
+            </div>
+            <!-- 上面一条结束 -->
+            <!-- 图片加信息 -->
+            <div  style="background-color: #ffffff;width: 100%;height: 312px;display: flex;border-radius: 10px  ;">
+                <!-- 滚动图片 -->
+                <div id="zuoyou" class="zuoyou11" style="height: 300px;width: 420px;margin-left: 10px;
+                    margin-right: 10px;margin-top: 5px;border-radius: 7px;position: relative;overflow: hidden; "> <!--overflow: hidden; -->
+                    <div style="position: absolute; top: 50%; right: 10px;
+                        transform: translateY(-50%); z-index: 5; ">  
+                        <button id="zuo" class="button1" style="margin-left:-785px;border: none;  padding: 5px 10px; font-size: 25px; color: white; cursor: pointer;"> < </button>
+                    </div>
+                    <div style="position: absolute; top: 50%; right: 10px;
+                        transform: translateY(-50%); z-index: 5;">  
+                        <button id="you" class="button1" style="margin-right: -10px;border: none;  padding: 5px 10px; font-size: 25px; color: white; cursor: pointer;"> > </button>  
+                    </div>
+                    <div style="list-style: none;white-space: nowrap;left: 0;padding-left: 0;height: 300px;width: 2000px;margin-left: -720px;
+                        border-radius: 7px;display: flex;position: relative;z-index: 4;left: 0px; transition: left 1.5s ease-in-out" id="img" class="img">
+                        <div class="image-container" style="margin-left: 300px;height: 300px; background-color: #f6ff00; width: 420px; transition:opacity 0.5s ease, filter 0.5s ease;  
+                        background-image: url('DSC08962.JPG'); background-size: cover; background-position: center;">  
+                            <a href="https://www.jinshan.gov.cn/ywdt-tpxw/20240715/862564.html" target="_blank" style="display: flex; flex-direction: column; 
+                                justify-content: flex-end; padding: 10px; color: white; text-decoration: none;" title="夜间献血服务开启爱心市民热情响应">  
+                                <div style="margin-top: 255px;width: 420px;margin-left: -10px;padding-top: 5px;padding-bottom: 6px;
+                                    border-radius: 0 0 7px 7px;transition: background-color 0.5s ease; " class="color22">
+                                    <span style="font-size: 19px;letter-spacing: 2px;">夜间献血服务开启&nbsp;&nbsp;&nbsp;爱心市民热情响应</span> 
+                                </div>  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 300px; background-color: #f6ff00; width: 420px; transition:opacity 0.5s ease, filter 0.5s ease; 
+                            background-image: url('DSC08927.JPG'); background-size: cover; background-position: center;">  
+                            <a href="https://www.jinshan.gov.cn/ywdt-tpxw/20240711/862510.html" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end; padding: 10px; color: white; text-decoration: none;" title="“爱鑫冰柜”上线&nbsp;为户外工作者送“清凉”">  
+                                <div style="margin-top: 255px;width: 420px;margin-left: -10px;padding-top: 5px;padding-bottom: 6px;border-radius: 0 0 7px 7px;
+                                    transition: background-color 0.5s ease; " class="color22">
+                                    <span style="font-size: 19px;letter-spacing: 2px;">“爱鑫冰柜”上线&nbsp;&nbsp;&nbsp;为户外工作者送“清凉”</span> 
+                                </div>  
+                                </a>  
+                            </div>
+                        <div class="image-container" style="height: 300px; background-color: #f6ff00; width: 420px; transition:opacity 0.5s ease, filter 0.5s ease; 
+                            background-image: url('DSC08945.JPG'); background-size: cover; background-position: center;">  
+                            <a href="https://www.jinshan.gov.cn/ywdt-tpxw/20240717/862640.html" target="_blank" style="display: flex; flex-direction: column; 
+                                justify-content: flex-end; padding: 10px; color: white; text-decoration: none;" title="813名足球小将齐聚金山">  
+                                <div style="margin-top: 255px;width: 420px;margin-left: -10px;padding-top: 5px;padding-bottom: 6px;border-radius: 0 0 7px 7px;transition: background-color 0.5s ease; " class="color22">
+                                    <span style="font-size: 19px;letter-spacing: 2px;">813名足球小将齐聚金山</span> 
+                                </div>  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 300px; background-color: #f6ff00; width: 420px;  transition:opacity 0.5s ease, filter 0.5s ease;
+                            background-image: url('DSC08962.JPG'); background-size: cover; background-position: center;">  
+                            <a href="https://www.jinshan.gov.cn/ywdt-tpxw/20240715/862564.html" target="_blank" style="display: flex; flex-direction: column; 
+                                justify-content: flex-end; padding: 10px; color: white; text-decoration: none;" title="夜间献血服务开启爱心市民热情响应">  
+                                <div style="margin-top: 255px;width: 420px;margin-left: -10px;padding-top: 5px;padding-bottom: 6px;border-radius: 0 0 7px 7px;transition: background-color 0.5s ease; " class="color22">
+                                    <span style="font-size: 19px;letter-spacing: 2px;">夜间献血服务开启&nbsp;&nbsp;&nbsp;爱心市民热情响应</span> 
+                                </div>  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 300px; background-color: #f6ff00; width: 420px; transition:opacity 0.5s ease, filter 0.5s ease; 
+                            background-image: url('DSC08927.JPG'); background-size: cover; background-position: center;">  
+                            <a href="https://www.jinshan.gov.cn/ywdt-tpxw/20240711/862510.html" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end; padding: 10px; color: white; text-decoration: none;" title="“爱鑫冰柜”上线&nbsp;为户外工作者送“清凉”">  
+                                <div style="margin-top: 255px;width: 420px;margin-left: -10px;padding-top: 5px;padding-bottom: 6px;border-radius: 0 0 7px 7px;transition: background-color 0.5s ease; " class="color22">
+                                    <span style="font-size: 19px;letter-spacing: 2px;">“爱鑫冰柜”上线&nbsp;&nbsp;&nbsp;为户外工作者送“清凉”</span> 
+                                </div>  
+                            </a>  
+                        </div>
+                    </div>
+                    <!-- <div class="circle-container">  
+                        <ul class="circle-list">  
+                            <li class="circle activecircle" data-n="1"></li>  
+                            <li class="circle" data-n="2"></li>  
+                            <li class="circle" data-n="3"></li>  
+                        </ul>  
+                    </div> -->
+                    <script>
+                        let oleft=document.getElementById("zuo");
+                        let oright=document.getElementById("you");
+                        let img=document.getElementById("img");
+                        let lock=true;   
+                        //节流锁
+                        let index=1;
+                        let autoplay=setInterval(autorun,4500)
+                        //4.5s运行一次 函数autorun
+                        function autorun(){
+                            if(!lock) return;
+                            lock=false;
+                            img.style.transition="left 1.5s ease-in-out,opacity 0.5s ease, filter 0.5s ease"
+                            index++;
+                            img.style.left=(index-1)*(-420)+"px";
+                            if(index===4){
+                                //无缝轮播原理
+                                setTimeout(() => {
+                                    img.style.transition="none";
+                                    index=1;
+                                    img.style.left=(index-1)*(-420)+"px";
+                                }, 1500);
+                            }
+                            // setcircle()
+                            //强制1.5s后才接受下一次点击
+                            setTimeout(() => {
+                                lock=true;
+                            }, 1500);
+                        }
+                        oright.addEventListener("click",(autorun))
+                        oleft.addEventListener("click",()=>{
+                            if(!lock) return;
+                            img.style.transition="left 1.5s ease-in-out,opacity 0.5s ease, filter 0.5s ease"
+                            index--;
+                            img.style.left=(index-1)*(-420)+"px";
+                            if(index===0){
+                                setTimeout(() => {  
+                                    img.style.transition="none";
+                                    index=3;
+                                    img.style.left=(index-1)*(-420)+"px";
+                                }, 1500);
+                            }
+                            // setcircle()
+                            lock=false;
+                            setTimeout(() => {
+                                lock=true;
+                            }, 1500);
+                        })
+                    //     const circle=document.querySelectorAll(".circle");
+                    //     function setcircle(){
+                    //         for(let i=0;i<circle.length;i++){
+                    //             if(i===index-1||i===index-4||i===index+2){
+                    //                 circle[i].classList.add("activecircle")
+                    //             }else{
+                    //                 circle[i].classList.remove("activecircle")
+                    //             }
+                    //         }
+                    //     }
+                    //     const fathercircle=document.querySelector(".circle-list")
+                    //     fathercircle.addEventListener("click",(e)=>{
+                    //         if(e.target.nodeName.toLowerCase()==="li"){
+                    //             const n=Number(e.target.getAttribute("data-n"));
+                    //             index=n;
+                    //             img.style.left=(index-1)*(-420)+"px";
+                    //             setcircle()
+                    //         }
+                    //     }
+                    // )
+                        const wrap=document.getElementById("zuoyou");
+                        wrap.addEventListener("mouseover",()=>{
+                            clearInterval(autoplay)
+                        })
+                        wrap.addEventListener("mouseout",()=>{
+                           // 在新建之前一定要先清除函数
+                            clearInterval(autoplay)
+                            autoplay=setInterval(autorun,4500)
+                        })
+                        document.addEventListener('visibilitychange', function() {  
+                            if (document.visibilityState === 'visible') {  
+                                clearInterval(autoplay)
+                                autoplay=setInterval(autorun,4500)
+                            }else{
+                                clearInterval(autoplay)
+                            }
+                        })
+                    </script>
+                </div>
+                <!-- 滚动图片结束 -->
+                <!-- 信息+公告 -->
+                <div>
+                    <!-- 控制头 -->
+                    <div id="selectfather1" style="margin-left: 20px;">
+                        <ul style="display: flex;" id="select11">
+                            <li style="overflow: auto;height: 50px;"  id="zero1" title="综合信息">
+                                <!-- letter-spacing: 2px; 字间距 -->
+                                <a href="https://www.jinshan.gov.cn/zwgk-zfxxgkzn/" target="_blank" class="top-margin link-with-line" style="float: left;margin-left: 25px;" id="firstson11">
+                                    <span style="font-size: 20px;letter-spacing: 2px;font-weight: bolder;color: rgb(30,144,255);" id="firstson1111">综合信息&nbsp;</span>
+                                    <span style="color: rgb(198, 198, 198);font-size: 25px;font-weight: bolder;">|</span></a>
+                            </li>
+                            <li style="overflow: auto;height: 50px;"id="first1" title="国务院信息">
+                                <a href="https://www.jinshan.gov.cn/zcjd-zcjd/index.html" target="_blank" class="top-margin " style="float: left;margin-left: 12px;"id="firstson21"><!--link-with-line1 class-->
+                                    <span style="font-size: 20px;letter-spacing: 2px;font-weight: bolder;color: #545454;" id="firstson2111">国务院信息&nbsp;</span>
+                                    <span style="color: rgb(198, 198, 198);font-size: 25px;font-weight: bolder;">|</span></a>
+                            </li>
+                            <li style="overflow: auto;height: 50px;"id="second1" title="通知公告">
+                                <a href="https://www.jinshan.gov.cn/hdpt-rdhy/" target="_blank" class="top-margin " style="float: left;margin-left: 12px;margin-top: 12px;" id="firstson31"><!--link-with-line class-->
+                                    <span style="font-size: 20px;letter-spacing: 2px;font-weight: bolder;color: #545454;" id="firstson3111">通知公告&nbsp;</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 控制头结束 -->
+                    <!-- 综合信息 -->
+                    <div style="width: 420px;height: 235px;margin-top: 20px;" id="firstson1">
+                        <ul style="padding-top:1px;">
+                            <div style="display: flex;margin-top: 5px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="区委常委会举行扩大会议 传达学习党的二十届三中全会精神">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-zhxx/20240722/862755.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        区委常委会举行扩大会议 传达学习党的二十届三中全会精神
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9;">2024.07.22</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="金山区党纪学习教育警示教育暨作风讲评会召开">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-zhxx/20240722/862758.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        金山区党纪学习教育警示教育暨作风讲评会召开
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.22</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="学习贯彻党的二十届三中全会精神，金山党员干部这样说">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-zhxx/20240722/862757.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        学习贯彻党的二十届三中全会精神，金山党员干部这样说
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.22</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="全国首创 金山新添市级基地">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-zhxx/20240722/862759.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        全国首创 金山新添市级基地
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.22</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="让社区和村庄因水而美 金山区开展水美社区和水美村庄建设试点">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-zhxx/20240719/862730.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        让社区和村庄因水而美 金山区开展水美社区和水美村庄建设试点
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.22</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="沪浙毗邻治理平台正式启用 “两地部门各自干”变为“界河两岸共奋战”">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-zhxx/20240722/862760.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        沪浙毗邻治理平台正式启用 “两地部门各自干”变为“界河两岸共奋战”
+                                    </a>
+                                </li>
+                                <span style="margin-top:4px;margin-left: 5px;color: #a9a9a9">2024.07.22</span>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- 综合信息结束 -->
+                    <!-- 国务院信息 -->
+                    <!-- display: none;通过js控制显示 -->
+                    <div style="width: 420px;height: 235px;margin-top: 20px;display: none;" id="firstson2">
+                        <ul style="padding-top:1px;">
+                            <div style="display: flex;margin-top: 5px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="国务院办公厅关于印发《“高效办成一件事”2024年度新一批重点事项清单》的通知">
+                                    <a href="https://www.gov.cn/zhengce/content/202407/content_6963543.htm" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        国务院办公厅关于印发《“高效办成一件事”2024年度新一批重点事项清单》的通知
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.19</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="国务院关于同意在沈阳等6个城市暂时调整实施有关行政法规和经国务院批准的部门规章规定的批复">
+                                    <a href="https://www.gov.cn/zhengce/content/202407/content_6962582.htm" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        国务院关于同意在沈阳等6个城市暂时调整实施有关行政法规和经国务院批准的部门规章规定的批复
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.11</span>
+                            </div>
+                            <div style="display: flex;margin-top:15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="国务院办公厅转发中国证监会等部门关于进一步做好资本市场财务造假综合惩防工作的意见》的通知">
+                                    <a href="https://www.gov.cn/zhengce/content/202407/content_6961454.htm" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        国务院办公厅转发中国证监会等部门关于进一步做好资本市场财务造假综合惩防工作的意见》的通知
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.05</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="国务院办公厅关于印发《政府采购领域“整顿市场秩序、建设法规体系、促进产业发展”三年行动方案（2024—2026年）》的通知">
+                                    <a href="https://www.gov.cn/zhengce/content/202407/content_6961215.htm" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        国务院办公厅关于印发《政府采购领域“整顿市场秩序、建设法规体系、促进产业发展”三年行动方案（2024—2026年）》的通知
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.04</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="国务院关于实施《中华人民共和国公司法》注册资本登记管理制度的规定">
+                                    <a href="https://www.gov.cn/zhengce/content/202407/content_6960376.htm" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        国务院关于实施《中华人民共和国公司法》注册资本登记管理制度的规定
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.01</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="稀土管理条例">
+                                    <a href="https://www.gov.cn/zhengce/content/202406/content_6960152.htm" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        稀土管理条例
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.06.29</span>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- 国务院信息结束 -->
+                    <!-- 通知公告 -->
+                    <div style="width: 420px;height: 235px;margin-top: 20px;display: none;" id="firstson3">
+                        <ul style="padding-top:1px;">
+                            <div style="display: flex;margin-top: 5px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="关于开展2024年上海市创新型企业总部认定申报的通知">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-tzgg/20240719/862744.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        关于开展2024年上海市创新型企业总部认定申报的通知
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.19</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="关于开展2024年度金山区数据管理能力成熟度评估模型贯标奖励申请的通知">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-tzgg/20240717/862664.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        关于开展2024年度金山区数据管理能力成熟度评估模型贯标奖励申请的通知
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.17</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="关于开展2024年度金山区规上制造业企业数字化诊断补贴申请的通知">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-tzgg/20240717/862663.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        关于开展2024年度金山区规上制造业企业数字化诊断补贴申请的通知
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.17</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="关于开展2024年度金山区工业互联网优秀平台奖励申请的通知">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-tzgg/20240717/862662.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        关于开展2024年度金山区工业互联网优秀平台奖励申请的通知
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.17</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="关于对上海发贵建设工程有限公司等5家企业送达上海市住房和城乡建设管理委员会撤销（回）行政许可决定事先告知书的公告">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-tzgg/20240712/862551.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        关于对上海发贵建设工程有限公司等5家企业送达上海市住房和城乡建设管理委员会撤销（回）行政许可决定事先告知书的公告
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.12</span>
+                            </div>
+                            <div style="display: flex;margin-top: 15px;">
+                                <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-left: 10px;text-align: left;width: 300px;"
+                                    title="关于对上海布恩装潢有限公司等20家企业送达上海市住房和城乡建设管理委员会撤销（回）行政许可决定书的公告">
+                                    <a href="https://www.jinshan.gov.cn/ywdt-tzgg/20240712/862550.html" 
+                                        target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                        关于对上海布恩装潢有限公司等20家企业送达上海市住房和城乡建设管理委员会撤销（回）行政许可决定书的公告
+                                    </a>
+                                </li>
+                                <span style="margin-top: 4px;margin-left: 5px;color: #a9a9a9">2024.07.12</span>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- 通知公告结束 -->
+                </div>
+                <script>
+                    // 小圆点切换实现
+                    var element1 = document.getElementById('zero1');
+                    var element11 = document.getElementById('first1');
+                    var element21 = document.getElementById('second1');
+
+                    var element31 = document.getElementById('firstson1');
+                    var element41 = document.getElementById('firstson2');
+                    var element51 = document.getElementById('firstson3');
+
+                    var element311 = document.getElementById('firstson11');
+                    var element411 = document.getElementById('firstson21');
+                    var element511 = document.getElementById('firstson31');
+
+                    var element1111 = document.getElementById('firstson1111');
+                    var element2111 = document.getElementById('firstson2111');
+                    var element3111 = document.getElementById('firstson3111');
+                    //笨办法 多的话要函数实现
+                    element1.addEventListener('mouseenter', function() {
+                        element1111.style.color = 'rgb(30,144,255)';
+                        element2111.style.color = 'rgb(84,84,84)';
+                        element3111.style.color = 'rgb(84,84,84)';
+
+                        element31.style.display = '';
+                        element41.style.display = 'none';
+                        element51.style.display = 'none';
+
+                        element311.classList.add('link-with-line');
+                        element411.classList.remove('link-with-line1');
+                        element511.classList.remove('link-with-line');
+
+                        element31.style.zIndex='5' ;
+                    }); 
+                    element11.addEventListener('mouseenter', function() {
+                        element1111.style.color = 'rgb(84,84,84)';
+                        element2111.style.color = 'rgb(30,144,255)';
+                        element3111.style.color = 'rgb(84,84,84)';
+
+                        element31.style.display = 'none';
+                        element41.style.display = '';
+                        element51.style.display = 'none';
+
+                        element311.classList.remove('link-with-line');
+                        element411.classList.add('link-with-line1');
+                        element511.classList.remove('link-with-line');
+                            
+                        element41.style.zIndex='5' ;
+                    });
+                    element21.addEventListener('mouseenter', function() { 
+                        element1111.style.color = 'rgb(84,84,84)';
+                        element2111.style.color = 'rgb(84,84,84)';
+                        element3111.style.color = 'rgb(30,144,255)';
+
+                        element31.style.display = 'none';
+                        element41.style.display = 'none';
+                        element51.style.display = '';
+
+                        element311.classList.remove('link-with-line');
+                        element411.classList.remove('link-with-line1');
+                        element511.classList.add('link-with-line');
+
+                        element51.style.zIndex='5' ;
+                    });
+                </script>
+                <!-- 信息+公告结束 -->
+            </div>
+            <!-- 图片加信息结束 -->
+        </div>
+        <!-- 今日金山结束 -->
+        <!-- 专题+政府信息 -->
+        <div style="height: 180px;display: flex;margin-top: 20px;" >
+            <!-- 专题 -->
+            <div style="flex: 1;background-color: #ffffff;margin-right: 5px;border-radius: 10px;" class="maxdiv" >
+                <div style="overflow: auto;">
+                    <a href="https://www.jinshan.gov.cn/ztzl/" target="_blank" class="top-margin" style="float: left;margin-left: 15px;" title="在线征集">
+                        <span style="color: rgb(30,144,255);font-size: 25px;font-weight: bolder;">|</span>
+                            &nbsp;&nbsp;
+                        <span style="font-size: 20px;color: #545454;font-weight: bolder;" class="change">专题专栏</span>
+                    </a>
+                    <div>
+                        <a  href="https://www.jinshan.gov.cn/ztzl/" target="_blank" class="top-margin1 change11" style="float: right;margin-right: 30px;
+                            display: flex;align-content: center;justify-content: center;color: #c4c4c4;" title="在线征集" >更多&nbsp;
+                            <img src="add11.png" alt="更多" width="20px" >
+                        </a>
+                    </div>
+                </div>
+            <div id="imgfather" >
+                <div  style="height: 110px;width: 420px;margin-left: 11px;overflow: hidden;
+                    margin-right: 8px;margin-top: 10px;border-radius: 7px;position: relative;"  class="imgfather" > <!--overflow: hidden; -->
+                    <!-- <div style="width: 420px;height: 120px;background-color: rgba(255,255,255,0);z-index: 50;position: absolute;transition: background-color 0.5s ease;" id="white1">
+
+                    </div> -->
+                    <div style="list-style: none;white-space: nowrap;left: 0;padding-left: 0;height: 115px;width: 3500px;
+                        display: flex;position: relative;z-index: 0;transition:1.5s ease-in-out;" id="img1">
+                        <div class="image-container" style="height: 115px; width: 420px;margin-top: -3px;transition:opacity 0.5s ease, filter 0.5s ease;">  
+                            <a href="https://www.jinshan.gov.cn/zt-dslzysthjbhdczsh/index.html" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end;" title="第三轮中央生态环境保护监督在上海">
+                                <img src="777.png" alt="第三轮中央生态环境保护监督在上海" style="margin-top: -15px;">  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 115px;  width: 420px;margin-top: -3px; transition:opacity 0.5s ease, filter 0.5s ease;">  
+                            <a href="https://www.jinshan.gov.cn/ztzl-2024lianghu/index.html" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end;" title="聚焦两会">
+                                <img src="1111.png" alt="聚焦两会" height="115px">  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 115px; width: 420px;margin-top: -3px;transition:opacity 0.5s ease, filter 0.5s ease;">  
+                            <a href="https://www.gov.cn/zhengce/zczhjd/" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end;" title="重要政策举措及实施成果">
+                                <img src="2222.png" alt="重要政策举措及实施成果" style="margin-top: 1px;">  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 115px; width: 420px;margin-top: -3px;transition:opacity 0.5s ease, filter 0.5s ease;">  
+                            <a href="https://tousu.www.gov.cn/dc/2024yxyshjjs/index.htm" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end;" title="国务院互联网+督查">
+                                <img src="333.png" alt="国务院互联网+督查" style="margin-top: 1px;">  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 115px;  width: 420px;transition:opacity 0.5s ease, filter 0.5s ease;">  
+                            <a href="https://www.jinshan.gov.cn/zjjs-jsrh/" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end;" title="金山如画">
+                                <img src="4444.png" alt="金山如画" >  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 115px;  width: 420px;margin-top: -3px;transition:opacity 0.5s ease, filter 0.5s ease;">  
+                            <a href="https://www.jinshan.gov.cn/ztzl-gyggxc/index.html" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end;" title="公益广告宣传">
+                                <img src="55555.png" alt="公益广告宣传" >  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 115px;  width: 420px;transition:opacity 0.5s ease, filter 0.5s ease; ">  
+                            <a href="https://www.jinshan.gov.cn/jsxy" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end;" title="信用金山">
+                                <img src="6666.png" alt="信用金山" height="115px">  
+                            </a>  
+                        </div>
+                        <div class="image-container" style="height: 115px;  width: 420px;margin-top: -3px; transition:opacity 0.5s ease, filter 0.5s ease;">  
+                            <a href="https://www.jinshan.gov.cn/zt-dslzysthjbhdczsh/index.html" target="_blank" style="display: flex; 
+                                flex-direction: column; justify-content: flex-end;" title="第三轮中央生态环境保护监督在上海">
+                                <img src="777.png" alt="第三轮中央生态环境保护监督在上海" style="margin-top: -15px;">  
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="circle-container imgfather" style="top: 2px;left: 137px;">  
+                    <ul class="circle-list">  
+                        <li class="circle activecircle" data-n="0"></li>  
+                        <li class="circle" data-n="1"></li>  
+                        <li class="circle" data-n="2"></li>
+                        <li class="circle" data-n="3"></li>
+                        <li class="circle" data-n="4"></li>
+                        <li class="circle" data-n="5"></li>
+                        <li class="circle" data-n="6"></li>  
+                    </ul>  
+                </div>
+            </div>
+                <script>
+                    let img1=document.getElementById("img1");
+                    let lock1=true; 
+                    let index1=0;
+                    let autoplay1=setInterval(autorun1,4500);
+                    function autorun1(){
+                        img1.style.transition="1.5s ease-in-out"
+                        index1++;
+                        img1.style.left=index1*(-420)+"px";
+                        if(index1===7){
+                            setTimeout(() => {
+                                img1.style.transition="none";
+                                index1=0;
+                                img1.style.left=index1*(-420)+"px";
+                            }, 1500);
+                        }
+                        setcircle1()
+                    }
+                    const circle=document.querySelectorAll(".circle");
+                    function setcircle1(){
+                        for(let i=0;i<circle.length;i++){
+                            if(i===index1||i===index1-7){
+                                circle[i].classList.add("activecircle")
+                            }else{
+                                circle[i].classList.remove("activecircle")
+                            }
+                        }
+                    }
+                    const fathercircle=document.querySelector(".circle-list")
+                    fathercircle.addEventListener("click",(e)=>{
+                        //toLowerCase向下选择
+                        if(e.target.nodeName.toLowerCase()==="li"){
+                            if(!lock1) return;
+                            //获取data的数据来实现移动效果
+                            const n=Number(e.target.getAttribute("data-n"));
+                            index1=n;
+                            img1.style.left=index1*(-420)+"px";
+                            setcircle1()
+                            lock1=false;
+                            setTimeout(() => {
+                            lock1=true;
+                            clearInterval(autoplay1)
+                            autoplay1=setInterval(autorun1,4500)
+                        }, 1500);
+                    }
+                    })
+                    const wrap1=document.getElementById("imgfather");
+                    wrap1.addEventListener("mouseover",()=>{
+                        clearInterval(autoplay1)
+                    })
+                    wrap1.addEventListener("mouseout",()=>{
+                        clearInterval(autoplay1)
+                        autoplay1=setInterval(autorun1,4500)
+                    })
+                    document.addEventListener('visibilitychange', function() {  
+                        if (document.visibilityState === 'visible') { 
+                            clearInterval(autoplay1)
+                            autoplay1=setInterval(autorun1,4500)
+                        }else{
+                            clearInterval(autoplay1)
+                        }
+                    })
+                </script>
+            </div>
+            <!-- 专题结束 -->
+            <!-- 政府信息 -->
+            <div style="background-color: #ffffff;margin-left: 5px;border-radius: 10px;float: right;" class="maxdiv">
+                <div id="selectfather"style="margin-left: 1px;">
+                    <ul style="display: flex;" id="select1">
+                        <li style="overflow: auto;"  id="zero" title="政府信息公开">
+                            <a href="https://www.jinshan.gov.cn/zwgk-zfxxgkzn/" target="_blank" class="top-margin" style="float: left;margin-left: 25px;">
+                                <span style="font-size: 20px;letter-spacing: 2px;color: rgb(30,144,255);font-weight: bolder;" id="zero111">政府信息公开&nbsp;</span>
+                                <span style="color: #1E90FF;font-size: 25px;font-weight: bolder;">|</span>
+                            </a>
+                        </li>
+                        <li style="overflow: auto;"id="first" title="政策解读">
+                            <a href="https://www.jinshan.gov.cn/zcjd-zcjd/index.html" target="_blank" class="top-margin" style="float: left;margin-left: 12px;">
+                                <span style="font-size: 20px;letter-spacing: 2px;color: #545454;font-weight: bolder;" id="first111">政策解读&nbsp;</span>
+                                <span style="color: #1E90FF;font-size: 25px;font-weight: bolder;">|</span>
+                            </a>
+                        </li>
+                        <li style="overflow: auto;"id="second" title="热点回应">
+                            <a href="https://www.jinshan.gov.cn/hdpt-rdhy/" target="_blank" class="top-margin" style="float: left;margin-left: 12px;margin-top: 12px;">
+                                <span style="font-size: 20px;letter-spacing: 2px;color: #545454;font-weight: bolder;" id="second111">热点回应&nbsp;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="width: 410px;height: 120px;margin-top: 10px;margin-left: 8px;display: flex;" id="zeroson">
+                    <ul style="display: flex;flex-wrap: wrap;">
+                        <li style="display: flex; align-items: center; justify-content: center;background-color: #f3f3f3;
+                            width: 125px;height: 50px;border-radius: 5px;margin-top: 7px;margin-left: 5px;" title="公开指南">
+                            <a href="https://www.jinshan.gov.cn/zwgk-zfxxgkzn/" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                                <img src="zhidao.png" alt="" width="23px" style="margin-right: 5px;margin-top: 3px;">
+                                <span style="font-size: 18px;color: #545454;">公开指南</span>
+                            </a>
+                        </li>
+                        <li style="display: flex; align-items: center; justify-content: center;background-color: #f3f3f3;
+                            width: 125px;height: 50px;border-radius: 5px;margin-top: 7px;margin-left: 10px;" title="公开制度">
+                            <a href="https://www.jinshan.gov.cn/zwgk-xxgkyj/" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                                <img src="24gl-folderOpen11.png" alt="" width="23px" style="margin-right: 5px;margin-top: 3px;">
+                                <span style="font-size: 18px;color: #545454;">公开制度</span>
+                            </a>
+                        </li>
+                        <li style="display: flex; align-items: center; justify-content: center;background-color: #f3f3f3;
+                            width: 125px;height: 50px;border-radius: 5px;margin-top: 7px;margin-left: 10px;" title="公开内容">
+                            <a href="https://www.jinshan.gov.cn/zwgk-fdgknr/" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                                <img src="doc11.png" alt="" width="23px" style="margin-right: 5px;margin-top: 3px;">
+                                <span style="font-size: 18px;color: #545454;">公开内容</span>
+                            </a>
+                        </li>
+                        <li style="display: flex; align-items: center; justify-content: center;background-color: #f3f3f3;
+                            width: 125px;height: 50px;border-radius: 5px;margin-top: 7px;margin-left: 5px;" title="公开年报">
+                            <a href="https://www.jinshan.gov.cn/zwgk-zfxxgknb/" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                                <img src="year11.png" alt="" width="23px" style="margin-right: 5px;margin-top: 3px;">
+                                <span style="font-size: 18px;color: #545454;">公开年报</span>
+                            </a>
+                        </li>
+                        <li style="display: flex; align-items: center; justify-content: center;background-color: #f3f3f3;
+                            width: 125px;height: 50px;border-radius: 5px;margin-top: 7px;margin-left: 10px;" title="依申请公开">
+                            <a href="https://www.jinshan.gov.cn/zwgk-ysqgk/" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                                <img src="docquary11.png" alt="" width="23px" style="margin-right: 5px;margin-top: 3px;">
+                                <span style="font-size: 18px;color: #545454;">依申请公开</span>
+                            </a>
+                        </li>
+                        <li style="display: flex; align-items: center; justify-content: center;background-color: #f3f3f3;
+                            width: 125px;height: 50px;border-radius: 5px;margin-top: 7px;margin-left: 10px;" title="政府公报">
+                            <a href="https://www.jinshan.gov.cn/zfgb-2024n04q/index.html" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                                <img src="star11.png" alt="" width="23px" style="margin-right: 5px;margin-top: 3px;">
+                                <span style="font-size: 18px;color: #545454;margin-top: 2px;">政府公报</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="width: 410px;height: 120px;margin-top: 10px;margin-left: 8px;display: none;" id="firstson">
+                    <ul style="padding-top:1px;">
+                        <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 12px;margin-left: 20px;
+                            margin-right: 25px;text-align: left;" title="【跟踪解读】【科小创·云课堂】金山区产学研科技成果转化项目">
+                            <a href="https://www.jinshan.gov.cn/zcjd-zcwd/20240716/862633.html" 
+                                target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                【跟踪解读】【科小创·云课堂】金山区产学研科技成果转化项目
+                            </a>
+                        </li>
+                        <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 12px;margin-left: 20px;
+                            margin-right: 25px;text-align: left;" title="一图读懂：《关于建立和加强劳务矛盾纠纷处理联动机制的工作方案》解读">
+                            <a href="https://www.jinshan.gov.cn/zcjd-zctj/20240716/862620.html" 
+                                target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                一图读懂：《关于建立和加强劳务矛盾纠纷处理联动机制的工作方案》解读
+                            </a>
+                        </li>
+                        <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 12px;margin-left: 20px;
+                            margin-right: 25px;text-align: left;" title="【跟踪解读】【科小创·云课堂】金山区科技小巨人企业">
+                            <a href="https://www.jinshan.gov.cn/zcjd-zcwd/20240712/862555.html" 
+                                target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                【跟踪解读】【科小创·云课堂】金山区科技小巨人企业
+                            </a>
+                        </li>   
+                    </ul>
+                </div>
+                <div style="width: 410px;height: 120px;margin-top: 10px;margin-left: 8px;display: none;" id="secondson">
+                    <ul style="padding-top:1px;position: relative;">
+                        <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 12px;margin-left: 20px;
+                            margin-right: 25px;text-align: left;" title="住宅物业热点问答——业主大会、业主委员会">
+                            <a href="https://www.jinshan.gov.cn/hdpt-rdhy/20240718/862680.html" 
+                                target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                住宅物业热点问答——业主大会、业主委员会
+                            </a>
+                        </li>
+                        <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 12px;margin-left: 20px;
+                            margin-right: 25px;text-align: left;" title="2024年度金山区科技小巨人企业申报工作问答">
+                            <a href="https://www.jinshan.gov.cn/hdpt-rdhy/20240711/862498.html" 
+                                target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                2024年度金山区科技小巨人企业申报工作问答
+                            </a>
+                        </li>
+                        <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 12px;margin-left: 20px;
+                            margin-right: 25px;text-align: left;" title="金山区关心关爱货车司机十条">
+                            <a href="https://www.jinshan.gov.cn/hdpt-rdhy/20240708/862419.html" 
+                                target="_blank" style="font-size: 17px;color: #545454;" class="change">
+                                金山区关心关爱货车司机十条
+                            </a>
+                        </li>   
+                    </ul>
+                </div>
+            </div>
+            <script>
+                var element = document.getElementById('zero');
+                var element1 = document.getElementById('first');
+                var element2 = document.getElementById('second');
+
+                var element3 = document.getElementById('zeroson');
+                var element4 = document.getElementById('firstson');
+                var element5 = document.getElementById('secondson');
+
+                var element00000 = document.getElementById('zero111');
+                var element11111 = document.getElementById('first111');
+                var element22222 = document.getElementById('second111');
+
+                element.addEventListener('mouseenter', function() {  
+                    element00000.style.color='rgb(30,144,255)'
+                    element11111.style.color='rgb(84,84,84)'
+                    element22222.style.color='rgb(84,84,84)'
+
+                    element3.style.display = 'flex';
+                    element4.style.display = 'none';
+                    element5.style.display = 'none';
+                    element3.style.zIndex='4' ;
+                }); 
+                element1.addEventListener('mouseenter', function() {
+                    element00000.style.color='rgb(84,84,84)'
+                    element11111.style.color='rgb(30,144,255)'
+                    element22222.style.color='rgb(84,84,84)'
+
+                    element3.style.display = 'none';
+                    element4.style.display = '';
+                    element5.style.display = 'none';
+                    element4.style.zIndex='4' ;
+                });
+                element2.addEventListener('mouseenter', function() { 
+                    element00000.style.color='rgb(84,84,84)'
+                    element11111.style.color='rgb(84,84,84)'
+                    element22222.style.color='rgb(30,144,255)'
+                    
+                    element3.style.display = 'none';
+                    element4.style.display = 'none';
+                    element5.style.display = '';
+                    element5.style.zIndex='4' ;
+                });
+            </script>
+            <!-- 政府信息结束 -->
+        </div>
+        <!-- 专题+政府信息结束 -->
+    </div>
+    <!-- 左边整体结束 -->
+    <!-- 右边整体 -->
+    <div style="height: 900px;width: 300px;display: inline-block;margin-left: 10px;position: relative;">
+        <!-- 营商环境 -->   
+        <div style="background-color: white;height: 300px;border-radius: 10px;" class="maxdiv">
+            <a href="https://www.jinshan.gov.cn/zjjs-yshj/" target="_blank" >
+                <div style="display: flex; align-items: center; justify-content: center; background-color: #266bff; height: 75px;
+                    border-radius: 10px 10px 0 0;" title="营商环境"> 
+                    <img src="package.png" alt="营商环境" style="width: 40px;">  
+                    <div style="font-size: 20px; margin-left: 10px;color: white;">营商环境</div> 
+                </div> 
+            </a> 
+            <div style="background-color: #e3e3e37b;height: 50px;margin: 15px;border-radius: 5px;display: flex;align-items: center; 
+                justify-content: center;">
+                <span style="font-size: 13px;color: #545454;"> 优化营商环境政策文件 <br> 形成“1+1+2+10”制度体系</span>
+            </div>
+            <div>
+                <ul>
+                    <li style="float: left;margin-left: 20px;">
+                        <a href="https://www.shanghai.gov.cn/yzcylyshj/index.html" target="_blank" title="上海市营商政策" class="change"style="color: #545454;">
+                            <span>・</span>
+                            &nbsp;上海市营商政策
+                        </a>
+                    </li>
+                    <br>
+                    <li style="margin-top: 10px;margin-left: -137px;float: left;">
+                        <a href="https://www.jinshan.gov.cn/yszc-jsyszc/" target="_blank" title="营商政策" class="change" style="color: #545454;">
+                            <span>・</span>
+                            &nbsp;营商政策
+                        </a>
+                    </li>
+                    <li style="margin-top: 10px;float: right;margin-right: 45px;">
+                        <a href="https://www.jinshan.gov.cn/ysdt-zxdt/" target="_blank" title="营商动态" class="change" style="color: #545454;">
+                            <span>・</span>
+                            &nbsp;营商动态
+                        </a>
+                    </li>
+                    <br>
+                    <li style="margin-top: 20px;float: left;margin-left: 20px;">
+                        <a href="https://www.jinshan.gov.cn/ysfw-cyyq/" target="_blank" title="产业园区" class="change" style="color: #545454;">
+                            <span>・</span>
+                            &nbsp;产业园区
+                        </a>
+                    </li>
+                    <li style="margin-top: 10px;float: right;margin-right: 45px;position: relative;position: relative;">
+                        <a href="https://www.jinshan.gov.cn/ysfw-cyyq/index.html" target="_blank" title="营商服务" class="change1" style="color: #545454;">
+                            <span>・</span>
+                            &nbsp;营商服务
+                        </a>
+                        <style>  
+                            .change1::after {  
+                                content: '';  
+                                position: absolute;  
+                                bottom: -8px; /* 根据需要调整 */  
+                                left: 50%; /* 相对于链接文本的宽度 */  
+                                margin-left: -1px;
+                                width: 0;  
+                                height: 0;  
+                                border-left: 14px solid transparent;  
+                                border-right: 14px solid transparent;   /* 通过透明边框限制 变成三角形*/  
+                                border-bottom: 10px solid rgb(38,107,255); /* 三角形颜色 */  
+                            }  
+                        </style> 
+                    </li>
+                </ul>
+            </div>
+            <div style="margin-top: 50px;background-color: #266bff ; margin-right: 15px; margin-left: 15px; height: 50px;border-radius: 5px;">
+                <ul>
+                    <li style="margin-top: 15px;float: left;margin-left: 20px;">
+                        <a href="https://zwdt.sh.gov.cn/qykj/shell_oc_js/enterprise/eindex" target="_blank" title="企业专属网页"  style="color: white;">
+                            &nbsp;企业专属网页
+                        </a>
+                    </li>
+                    <li style="margin-top: 15px;float: right;margin-right: 30px;">
+                        <a href="https://jqfwy.jinshanqu.net/csc/app/index/innerIndex.html" target="_blank" title="企业服务云"  style="color: white;">
+                            &nbsp;企业服务云
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 营商环境结束 -->
+        <!-- 服务+社区 -->
+        <div style="height: 120px;display: flex;margin-top: 10px;">
+            <!-- 服务 -->
+            <div style="flex: 1;background-color: #ffffff;margin-right: 5px;border-radius: 10px;" class="maxdiv">
+                 <div style="margin-top: 15px;position: relative;display: inline-block;">
+                    <a href="https://www.jinshan.gov.cn/qita/20200924/784809.html" target="_blank" title="行政服务中心">
+                        <div style="width: 50px;height: 50px;background-color: #266bff;border-radius: 50%;display: flex;justify-content: center;
+                            align-items: center;margin-left: 23px;">
+                            <img src="fourgrass.png" alt="行政服务中心" width="40px" style="display: inline-block;">
+                        </div>
+                        <div style="height: 15px;">
+                        </div>
+                        <div style="color: #545454;" class="change">行政服务中心</div>
+                    </a>
+                </div>
+            </div>
+            <!-- 服务结束 -->
+            <!-- 社区 -->
+            <div style="flex: 1;background-color: #ffffff;margin-left: 5px;border-radius: 10px;" class="maxdiv">
+                <div style="margin-top: 15px;position: relative;display: inline-block;" title="社区事务受理服务中心">
+                    <a href="https://www.jinshan.gov.cn/shfw-sqswslzx/ " target="_blank" >
+                        <div style="width: 50px;height: 50px;background-color: #266bff;border-radius: 50%;display: flex;justify-content: center;
+                            align-items: center;margin-left: 23px;">
+                            <img src="qiye.png" alt="社区事务受理服务中心" width="30px" style="display: inline-block;">
+                        </div>
+                        <div style="height:8px;">
+                        </div>
+                        <div style="color: #545454;" class="change">社区事务受理 <br> 服务中心</div>
+                    </a>
+                </div>
+            </div>
+            <!-- 社区结束 -->
+        </div>
+        <!-- 服务+社区结束 -->
+        <!-- 数据2 -->
+        <div style="background-color: rgb(255, 255, 255);height: 62px;margin-top: 10px;border-radius: 10px;display: flex;" class="maxdiv">
+            <div style="margin-left: 18px;margin-right: 7px;float: left;margin-top: 9px;" title="数据开放">
+                <a href="https://data.sh.gov.cn/" target="_blank">
+                    <img src="https://www.jinshan.gov.cn/assets/img/sjkf.png" alt="数据开放" style="width: 127px;">
+                </a>
+            </div>
+            <div style="margin-right: 15px;margin-left: 7px;float: right;margin-top: 9px;" title="数据发布">
+                <a href="https://www.jinshan.gov.cn/sjfabu/index.html" target="_blank">
+                    <img src="https://www.jinshan.gov.cn/assets/img/sjfb.png" alt="数据发布"style="width: 127px;">
+                </a>
+            </div>
+        </div>
+        <!-- 数据2结束 -->
+        <!-- 互动 -->
+        <div style="background-color: white;height: 110px;margin-top: 10px;display: flex;align-content: 
+            center;justify-content: center;border-radius: 10px;" class="maxdiv">
+            <div style="background-color: #266bff;height: 90px;width: 100px;border-radius: 7px;margin-top: 10px;
+                margin-left: 15px;margin-right: 12px;" title="政民互动">
+                <img src="touxiang.png" alt="政民互动" width="50px" style="margin-top: 5px;margin-bottom: -5px;">
+                <br>
+                <span style="font-size: 18px;color: white;">政民互动</span>
+            </div>
+            <div style="flex: 1;margin-left: 10px;">
+                <div style="background-color: #f1f1f1;width: 140px;height: 35px;margin-top: 15px;border-radius: 7px;
+                    margin-bottom: 10px;">
+                    <a href="https://www.jinshan.gov.cn/hdpt-xfjd/" target="_blank" title="信访接待" style="display: flex;
+                        justify-content: center; align-items: center; height: 45px; ">  
+                        <span style="font-size: 16px;transform: translateY(-6px);color: #545454;" class="change">信访接待 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></span>  
+                    </a>
+                </div>
+                <div style="background-color: #f1f1f1;width: 140px;height: 35px;border-radius: 7px;">
+                    <a href="https://www.jinshan.gov.cn/hd-zxft/" target="_blank" title="在线访谈" style="display: flex;
+                        justify-content: center; align-items: center; height: 45px;  ">  
+                        <span style="font-size: 16px;transform: translateY(-6px);color: #545454;" class="change">在线访谈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>‌</span>  
+                    </a>
+                </div>   
+            </div>
+        </div>
+        <!-- 互动结束 -->
+        <!-- 知识库 -->
+        <div style="height: 59px;margin-top: 13px;border-radius: 10px;" class="maxdiv">
+            <a href="https://hd.jinshan.gov.cn/js-interaction/biz/library/page" target="_blank" title="知识库">
+                <img src="DSC08991.png" alt="知识库" width="300px" style="border-radius: 15px 15px 0 0;">
+            </a>
+        </div>
+        <!-- 知识库结束 -->
+        <!-- 在线征集 -->
+        <div style="background-color: rgb(255, 255, 255);height: 180px;margin-top: 15px;border-radius: 10px;" class="maxdiv"> 
+            <div style="overflow: auto;">
+                <a href="https://hd.jinshan.gov.cn/js-interaction/biz/collect/page" target="_blank" class="top-margin" style="float: left;margin-left: 15px;" title="在线征集">
+                    <span style="color: rgb(30,144,255);font-size: 25px;font-weight: bolder;">|</span>&nbsp;&nbsp;<span style="font-size: 20px;color: #545454;font-weight: bolder;" class="change">在线征集</span>
+                </a>
+                <div>
+                    <a  href="https://hd.jinshan.gov.cn/js-interaction/biz/collect/page" target="_blank" class="top-margin11 change11" style="float: right;margin-right: 30px;
+                        display: flex;align-content: center;justify-content: center;color: #c4c4c4;" title="在线征集" >更多&nbsp;
+                        <img src="add11.png" alt="更多" width="20px" >
+                    </a>
+                </div>
+            </div>
+            <div>
+                <ul >
+                    <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 15px;margin-left: 20px;margin-right: 25px;text-align: left;">
+                        <a href="http://hd.jinshan.gov.cn:8080/js-interaction/biz/collect/info/ae48d4e7924fe143647f9b9eb72e1af9" class="change"
+                            target="_blank" style="font-size: 17px;color: #545454;"
+                            title="关于《金山区综合防灾减灾规划（2024-2035年）》（征求意见稿）征询公众意见的公告">
+                            关于《金山区综合防灾减灾规划（2024-2035年）》（征求意见稿）征询公众意见的公告
+                        </a>
+                    </li>
+                    <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 15px;margin-left: 20px;margin-right: 25px;text-align: left;">
+                        <a href="http://hd.jinshan.gov.cn:8080/js-interaction/biz/collect/info/4509d22e8c92a43c893bb90fe95fa4f7" class="change"
+                            target="_blank" style="font-size: 17px;color: #545454;" 
+                            title="关于《金山区做强律师事务所品牌的实施意见》（征求意见稿）征询公众意见的公告">
+                            关于《金山区做强律师事务所品牌的实施意见》（征求意见稿）征询公众意见的公告
+                        </a>
+                    </li>
+                    <li  style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 15px;margin-left: 20px;margin-right: 25px;text-align: left;">
+                        <a href="http://hd.jinshan.gov.cn:8080/js-interaction/biz/collect/info/b95b9690ddf86aff0677ea4f0f01a5d5" class="change"
+                            target="_blank" style="font-size: 17px;color: #545454;" 
+                            title="金山区教育局2024年“政府开放月”活动方案建议征集">
+                            金山区教育局2024年“政府开放月”活动方案建议征集
+                        </a>
+                    </li>   
+                </ul>
+            </div>
+        </div>
+        <!-- 在线征集结束 -->
+    </div>
+    <!-- 右边整体结束 -->
+</div>
+<!-- 整体中间结束 -->
+<!-- 页脚网站 -->
+<div style="height: 80px;margin: 0 auto;max-width: 1300px;margin-top: 10px;"> 
+    <div style="height: 70px;width: 1300px;display: flex;align-items: center;margin-left: 45px;">
+        <!-- onchange="handleSelectChange(event)" 当选择其他元素时跳转到js 实现页面打开-->
+        <select title="市政府部门网站" onchange="handleSelectChange(event)" class="govDepartments" style="margin-right: 15px;width: 200px;">
+            <option value="#">市政府部门网站</option>
+            <!-- 显示在一开始的内容 并且默认第一个被选中-->
+            <option value="http://fgw.sh.gov.cn/" title="市发展改革委">市发展改革委</option>
+            <option value="http://www.sheitc.sh.gov.cn" title="市经济信息化委">市经济信息化委</option>
+            <option value="http://sww.sh.gov.cn" title="市商务委">市商务委</option>
+            <option value="http://edu.sh.gov.cn/" title="市教委">市教委</option>
+            <option value="http://stcsm.sh.gov.cn/" title="市科委">市科委</option>
+            <option value="http://mzzj.sh.gov.cn/" title="市民族宗教局">市民族宗教局</option>
+            <option value="https://gaj.sh.gov.cn/" title="市公安局">市公安局</option>
+            <option value="http://mzj.sh.gov.cn" title="市民政局">市民政局</option>
+            <option value="http://sfj.sh.gov.cn" title="市司法局">市司法局</option>
+            <option value="http://www.czj.sh.gov.cn/" title="市财政局">市财政局</option>
+            <option value="http://rsj.sh.gov.cn/" title="市人力资源社会保障局">市人力资源社会保障局</option>
+            <option value="http://ghzyj.sh.gov.cn/" title="市规划资源局">市规划资源局</option>
+            <option value="http://ghzyj.sh.gov.cn/" title="市规划资源局">市规划资源局</option>
+            <option value="http://sthj.sh.gov.cn/" title="市生态环境局">市生态环境局</option>
+            <option value="http://zjw.sh.gov.cn/" title="市住房城乡建设管理委">市住房城乡建设管理委</option>
+            <option value="http://jtw.sh.gov.cn" title="市交通委">市交通委</option>
+            <option value="http://nyncw.sh.gov.cn/" title="市农业农村委">市农业农村委</option>
+            <option value="http://swj.sh.gov.cn/" title="市水务局">市水务局</option>
+            <option value="http://whlyj.sh.gov.cn/" title="市文化旅游局">市文化旅游局</option>
+            <option value="http://wsjkw.sh.gov.cn/" title="市卫生健康委">市卫生健康委</option>
+            <option value="http://tyjr.sh.gov.cn/" title="市退役军人局">市退役军人局</option>
+            <option value="http://yjglj.sh.gov.cn/" title="市应急局">市应急局</option>
+            <option value="http://sjj.sh.gov.cn/" title="市审计局">市审计局</option>
+            <option value="http://scjgj.sh.gov.cn/" title="市市场监管局">市市场监管局</option>
+            <option value="http://jrj.sh.gov.cn/" title="市地方金融监管局">市地方金融监管局</option>
+            <option value="http://wsb.sh.gov.cn/" title="市政府外办">市政府外办</option>
+            <option value="https://www.gzw.sh.gov.cn/" title="市国资委">市国资委</option>
+            <option value="http://tyj.sh.gov.cn/" title="市体育局">市体育局</option>
+            <option value="http://tjj.sh.gov.cn/" title="市统计局">市统计局</option>
+            <option value="https://gfdy.sh.gov.cn/" title="市国动办">市国动办</option>
+            <option value="http://www.jgj.sh.gov.cn/" title="市机管局">市机管局</option>
+            <option value="http://lhsr.sh.gov.cn/" title="市绿化市容局">市绿化市容局</option>
+            <option value="http://ybj.sh.gov.cn/" title="市医保局">市医保局</option>
+            <option value="http://lhsr.sh.gov.cn/" title="市绿化市容局">市绿化市容局</option>
+            <option value="http://www.jgj.sh.gov.cn/" title="市机管局">市机管局</option>
+            <option value="https://gfdy.sh.gov.cn/" title="市国动办">市国动办</option>
+            <option value="http://hzjl.sh.gov.cn/" title="市政府合作交流办">市政府合作交流办</option>
+            <option value="http://css.sh.gov.cn/" title="市政府参事室">市政府参事室</option>
+            <option value="http://sipa.sh.gov.cn/" title="市知识产权局">市知识产权局</option>
+            <option value="http://lswzj.sh.gov.cn/" title="市粮食物资储备局">市粮食物资储备局</option>
+            <option value="http://jyj.sh.gov.cn/" title="市监狱管理局">市监狱管理局</option>
+            <option value="http://cgzf.sh.gov.cn/" title="市城管执法局">市城管执法局</option>
+            <option value="http://fgj.sh.gov.cn/" title="市房屋管理局">市房屋管理局</option>
+            <option value="http://yjj.sh.gov.cn/" title="市药品监管局">市药品监管局</option>
+        </select>
+        <select title="市重要部门网站" onchange="handleSelectChange(event)" class="govDepartments" style="margin-right: 15px;width: 250px;">
+            <option value="#">市重要部门网站</option>
+            <option value="http://www.spcsc.sh.cn/" title="市人大">市人大</option>
+            <option value="http://www.shszx.gov.cn/" title="市政协">市政协</option>
+            <option value="http://jcw.sh.gov.cn/" title="市纪委监委">市纪委监委</option>
+            <option value="http://www.shzfzz.net/" title="市委政法委">市委政法委</option>
+            <option value="http://www.hshfy.sh.cn/" title="市高级人民法院">市高级人民法院</option>
+            <option value="http://www.sh.jcy.gov.cn/" title="市人民检察院">市人民检察院</option>
+            <option value="http://www.shmg.org.cn/" title="民革上海市委">民革上海市委</option>
+            <option value="http://www.minmengsh.gov.cn/" title="民盟上海市委">民盟上海市委</option>
+            <option value="http://www.shzgd.org/" title="致公党上海市委">致公党上海市委</option>
+            <option value="http://www.ngdsh.org.cn/" title="农工党上海市委">农工党上海市委</option>
+            <option value="http://www.shmj.org.cn/" title="民进上海市委">民进上海市委</option>
+            <option value="http://www.mjshsw.org.cn/" title="民建上海市委">民建上海市委</option>
+            <option value="http://www.sh93.gov.cn/" title="九三学社上海市委">九三学社上海市委</option>
+            <option value="http://www.shtm.gov.cn/" title="台盟上海市委">台盟上海市委</option>
+            <option value="http://www.sfic.org.cn/" title="市工商联">市工商联</option>
+            <option value="http://www.shzgh.org/" title="市总工会">市总工会</option>
+            <option value="http://www.shyouth.net/" title="团市委">团市委</option>
+            <option value="http://www.shwomen.org/" title="市妇联">市妇联</option>
+            <option value="http://www.shjgdj.gov.cn" title="市市级机关工委">市市级机关工委</option>
+            <option value="http://www.shbb.gov.cn/" title="市委编办">市委编办</option>
+            <option value="http://xfb.sh.gov.cn/xfb/index.html" title="市信访办">市信访办</option>
+            <option value="http://www.shtong.gov.cn/" title="市方志办">市方志办</option>
+            <option value="http://www.archives.sh.cn/" title="市档案局">市档案局</option>
+            <option value="http://www.shbmj.gov.cn/" title="市国家保密局">市国家保密局</option>
+            <option value="http://www.shacs.gov.cn/" title="市公务员局">市公务员局</option>
+            <option value="http://www.fzzx.sh.gov.cn/" title="市政府发展研究中心">市政府发展研究中心</option>
+            <option value="http://www.shjxdw.cn/" title="市经济信息化工作党委">市经济信息化工作党委</option>
+            <option value="http://www.shio.gov.cn/" title="市人民政府新闻办公室">市政府新闻办</option>
+            <option value="http://zbb.sh.gov.cn/" title="市政府征兵办">市政府征兵办局</option>
+            <option value="http://fegw.sh.gov.cn/" title="市妇儿工委">市妇儿工委</option>
+            <option value="http://www.smnpo.cn/" title="上海市核电办公室">上海市核电办公室</option>
+            <option value="http://shanghai.customs.gov.cn/" title="上海海关">上海海关</option>
+            <option value="http://gaj.sh.gov.cn/crj/" title="上海市出入境管理局">市出入境管理局</option>
+            <option value="http://shanghai.nia.gov.cn/" title="市出入境边防检查总站">市出入境边防检查总站</option>
+            <option value="http://www.cbirc.gov.cn/branch/shanghai/view/pages/index/index.html" title="上海银保监局">上海银保监局</option>
+            <option value="http://www.shdzj.gov.cn/" title="市地震局">市地震局</option>
+            <option value="http://sh.cma.gov.cn/" title="市气象局">市气象局</option>
+            <option value="http://sh.spb.gov.cn/" title="市邮政管理局">市邮政管理局</option>
+            <option value="http://shca.miit.gov.cn/" title="上海市通信管理局">市通信管理局</option>
+            <option value="http://xfjyzd.sh.gov.cn/" title="市消防救援总队">市消防救援总队</option>
+            <option value="http://www.sast.gov.cn/" title="市科协">市科协</option>
+            <option value="http://www.redcross-sha.org.cn/Home/Default.aspx" title="市红十字会">市红十字会</option>
+            <option value="http://www.scf.org.cn/" title="市慈善基金会">市慈善基金会</option>
+            <option value="http://www.shyjys.org.cn/" title="市拥军优属基金会">市拥军优属基金会</option>
+            <option value="http://www.shgjj.com/" title="市公积金中心">市公积金中心</option>
+            <option value="http://wsyjg.sh.gov.cn/" title="市文史馆">市文史馆</option>
+            <option value="http://sh.122.gov.cn/" title="市交通安全综合服务管理平台">市交通安全综合服务管理平台</option>
+            <option value="http://www.shmeea.edu.cn/" title="市教育考试院">市教育考试院</option>
+            <option value="http://www.simt.com.cn/" title="市计量测试技术研究院">市计量测试技术研究院</option>
+            <option value="http://www.ssme.sh.gov.cn/" title="上海市企业服务云">上海市企业服务云</option>
+            <option value="http://www.investsh.org.cn/cn/index.htm" title="上海外商投资促进服务平台">上海外商投资促进服务平台局</option>
+            <option value="http://www.accsh.org/" title="上海仲裁委">上海仲裁委</option>
+            <option value="http://www.shiac.org/" title="上海国际经济贸易仲裁委员会">上海国际经济贸易仲裁委员会</option>
+            <option value="http://www.shjcdj.cn/" title="上海基层党建网">上海基层党建网</option>
+            <option value="http://www.shgb.gov.cn/" title="上海干部在线学习城">上海干部在线学习城</option>
+            <option value="http://www.962222.net/" title="上海市民信息服务网">上海市民信息服务网</option>
+            <option value="http://rsj.sh.gov.cn/zp/zyjs/index.shtml" title="上海公共招聘">上海公共招聘</option>
+            <option value="http://www.commerce.sh.cn/" title="上海商业网">上海商业网</option>
+            <option value="http://www.portshanghai.com.cn" title="上港集团">上港集团</option>
+            <option value="http://www.shanghaipower.com/" title="上海电力">上海电力</option>
+            <option value="http://www.sisa.net.cn" title="上海市信息服务业行业协会">上海市信息服务业行业协会</option> 
+        </select>
+        <select title="各区政府网站" onchange="handleSelectChange(event)" class="govDepartments" style="margin-right: 15px; width: 250px;" >
+            <option value="#">各区政府网站</option>
+            <option value="https://www.pudong.gov.cn">浦东新区</option>
+            <option value="https://www.shhuangpu.gov.cn">黄浦区</option>
+            <option value="https://www.jingan.gov.cn">静安区</option>
+            <option value="https://www.xuhui.gov.cn">徐汇区</option>
+            <option value="https://www.shcn.gov.cn">长宁区</option>
+            <option value="https://www.shpt.gov.cn">普陀区</option>
+            <option value="https://www.shhk.gov.cn">虹口区</option>
+            <option value="https://www.shyp.gov.cn">杨浦区</option>
+            <option value="https://www.shbsq.gov.cn">宝山区</option>
+            <option value="https://www.shmh.gov.cn">闵行区</option>
+            <option value="http://www.jiading.gov.cn/">嘉定区</option>
+            <option value="https://www.songjiang.gov.cn">松江区</option>
+            <option value="https://www.shqp.gov.cn">青浦区</option>
+            <option value="https://www.fengxian.gov.cn">奉贤区</option>
+            <option value="https://www.shcm.gov.cn">崇明区</option>
+        </select>
+        <select title="金山街镇频道" onchange="handleSelectChange(event)" class="govDepartments" style="margin-right: 15px; width: 250px;" > 
+            <option value="#">金山区街镇频道</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-fjz/index.html">枫泾镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-zjz/index.html">朱泾镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-tlz/index.html">亭林镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-cjz/index.html">漕泾镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-syz/index.html">山阳镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-lvxz/index.html">吕巷镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-lxz/index.html">廊下镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-zyz/index.html">张堰镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-jswz/index.html">金山卫镇</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-shjd/index.html">石化街道</option>
+            <option value="https://www.jinshan.gov.cn/jzwj-jsgyq/index.html">高新区</option>    
+        </select>
+        <select title="金山区其他重要网站" onchange="handleSelectChange(event)" class="govDepartments"  style="width: 200px;">
+            <option value="#">金山区其他重要网站</option>
+            <option value="http://renda.jinshan.gov.cn">金山人大</option>
+            <option value="http://zhengxie.jinshan.gov.cn">金山政协</option>
+            <option value="http://www.jsdj.cn/html/">金山党建</option>
+            <option value="http://jlw.jinshan.gov.cn/html/">金廉网</option>
+            <option value="http://jswm.jinshanqu.net/">金山文明网</option>
+            <option value="http://www.jsbao.com/#tqyb">金山报</option>
+        </select>
+    </div>
+</div>
+<!-- 页脚网站结束 -->
+<!-- 页脚灰色地带 -->
+<div style="border-radius: 0 0 10px 10px;background-color: #8c8c8c;height: 200px;color: white;">
+    <div style="justify-content: center; flex-direction: column;align-content: center;height: 100px;margin: 0 auto;
+        max-width: 1200px;display: flex;">
+        <!-- 政府 -->
+        <div style="display: flex; height: 130px; width: 1200px;margin-top: 80px;">
+            <!-- 左 -->
+            <div style="font-size: 0.6ch;margin-top: 15px;">
+                <p>
+                    <img src="https://www.jinshan.gov.cn/assets/img/footer-logo2.png" width="225" alt="上海市金山区人民政府" title="上海市金山区人民政府">
+                </p>
+                <p >
+                    地址：金山大道2000号 &nbsp;&nbsp;邮政编码：200540
+                </p>
+                <p><!-- 日常笨办法 管他呢-->
+                    电话：57921001(总机)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p>
+                    工作时间：周一至周五 08:30-17:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>            
+            </div>
+            <!-- 中 -->
+            <div style="flex: 1; display: flex; justify-content: center; align-items: center; margin-left: 30px;">
+                <a style="margin-right: 10px;">
+                    <img src="https://www.jinshan.gov.cn/assets/img/wzabst.png" alt="" width="100" title="适老化无障碍服务">
+                </a>
+                <a href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=3101160001&url=https%3A%2F%2Fwww.jinshan.gov.cn%2F"
+                    target="_blank" style="margin-right: 10px;">
+                    <img src="https://www.jinshan.gov.cn/assets/img/jc.png" alt="政府网站找错" width="100" title="政府网站找错">
+                </a>
+                <a href="https://bszs.conac.cn/sitename?method=show&id=75A79559DFACA663E053022E1AAC4B48" target="_blank"style="margin-right: 10px;" >
+                    <img src="https://www.jinshan.gov.cn/assets/img/red.png" alt="党政机关" width="45" title="党政机关">
+                </a>
+                <a href="https://www.12377.cn/" target="_blank" style="margin-right: 10px;">
+                    <img src="https://www.jinshan.gov.cn/assets/img/jb.png" alt="不良信息举报" width="135" title="不良信息举报" >
+                </a>
+                <!-- 记得填入实现打开网页就输入型号 recordcode=31011602001043 -->
+                <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011602001043" title="全国互联网安全管理服务平台" target="_blank">
+                    <img src="https://www.jinshan.gov.cn/assets/img/hu.png" alt="沪公网安备" width="205">
+                </a>                                                
+            </div>
+            <!-- 右 --> 
+            <div style="flex: 1; display: flex; justify-content: center; align-items: center;margin-left: 30px;">
+                <img src="https://www.jinshan.gov.cn/assets/img/ewm1.png" alt="i金山微信公众号" title="i金山微信公众号" width="75px" style="margin-right: 20px;">
+                <img src="https://www.jinshan.gov.cn/assets/img/ewm2.png" alt="上海金山app下载" title="上海金山app下载" width="75px" style="margin-right: 20px;">
+                <img src="https://www.jinshan.gov.cn/assets/img/ewm3.png" alt="金山传播微博" title="金山传播微博" width="75px">
+            </div>        
+        </div>
+        <!-- 页脚 -->
+        <div style="height: 70px;width: 1200px;font-size: 0.75ch;">
+            <p>
+                &nbsp <br> 
+                上海市金山区人民政府版权所有 Copyright 2020 Shanghai Jinshan All Rights Reserved
+                <a href="https://beian.miit.gov.cn/" target="_blank" title="ICP/IP地址/域名信息备案管理系统" style="color: white;">
+                    沪ICP备06049091号-1
+                </a>
+                &nbsp&nbsp&nbsp政府网站标识码：3101160001 <br> <br>(建议您使用IE9版本及以上浏览器，并将电脑显示屏的分辨率调整为1366*768或以上浏览本网站)<br>&nbsp
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 页脚灰色地带结束 -->
+<!-- js最好放在对应html下面 让html加载完毕才加载js -->
+    <script> 
+        var linkc = document.querySelector('.linkc');  
+        linkc.addEventListener('mouseenter', function() {  
+            this.style.marginTop = '1px';  
+        });  
+        linkc.addEventListener('mouseleave', function() {  
+            this.style.marginTop = '0';  
+        });
+
+        const searchInput = document.querySelector('.input');
+        const searchLink = document.querySelector('.linkc');
+        searchLink.addEventListener('mouseenter', function() {
+            searchInput.style.opacity = '1';
+            searchInput.style.width = '100px'; 
+            searchLink.style.borderRadius = '0px 10px 10px 0px';
+            searchLink.style.backgroundColor='rgba(93, 79, 251, 0.468)';
+        });
+
+        searchLink.addEventListener('mouseleave', function(event) {
+            if (!searchInput.contains(event.relatedTarget)) {
+                searchInput.style.opacity = '0';
+                searchInput.style.width = '0';
+                searchLink.style.borderRadius = '10px 10px 10px 10px';
+                searchLink.style.backgroundColor='rgba(214, 210, 252, 0.468)';
+            }
+        });
+
+        const searchInput2 = document.getElementById('searchInput');
+        searchInput.addEventListener('mouseleave', function() {
+            searchInput.style.opacity = '0';
+            searchInput.style.width = '0';
+            searchLink.style.borderRadius = '10px 10px 10px 10px';
+            searchLink.style.backgroundColor='rgba(214, 210, 252, 0.468)';
+        });
+
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); 
+            var query = document.querySelector('.input').value.trim(); 
+            if (query) { 
+                var url = 'https://hd.jinshan.gov.cn/search/search/data?page=1&view=&dsId=&daterange=1&dateorder=1&contentScope=1&dateRangePicker=&searchTarget=all&keyword=' + encodeURIComponent(query);
+                window.open(url, '_blank'); 
+            } else { 
+                alert('请输入搜索关键词！');
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const wrap1 = document.getElementById('wrap1');
+            const wrap2 = document.getElementById('wrap2');
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                const threshold = 80; 
+                if (scrollTop > threshold) {
+                    wrap1.style.backgroundColor = 'rgb(30,144,255)'; 
+                    wrap2.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+                } else {
+                    wrap1.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+                    wrap2.style.backgroundColor = 'rgba(166, 166, 166, 0.5)';
+                }
+            });
+        });
+
+        document.addEventListener('visibilitychange', function() {  
+            if (document.visibilityState === 'visible') {  
+                startScrolling();
+            }else{
+                stopScrolling();
+            }
+        })
+
+        let list = document.querySelector('#list');  
+        let startY = -10; // 初始滚动位置  
+        let maxScroll = 148 // 计算最大滚动距离  
+        let intervalId = null;
+
+        function scrollList() {  
+            startY -= 0.25; // 每次移动2px  
+            if (startY < -maxScroll) {  
+                startY = -10; // 如果超出最大滚动距离，则重置为0  
+            }  
+            list.style.transform = `translateY(${startY}px)`; // 应用滚动效果  
+        }
+
+        function startScrolling() {  
+            if (!intervalId) { // 确保没有重复设置定时器  
+                intervalId = setInterval(scrollList, 20);  
+            }  
+        }
+
+        function stopScrolling() {  
+            if (intervalId) {  
+                clearInterval(intervalId);  
+                intervalId = null;  
+            }  
+        } 
+        // 监听鼠标进入事件  
+        list.addEventListener('mouseenter', stopScrolling);  
+        // 监听鼠标离开事件  
+        list.addEventListener('mouseleave', startScrolling);  
+        // 初始启动滚动  
+        startScrolling();
+
+        const zoomableItems = document.querySelectorAll('.zoomable');  
+        zoomableItems.forEach(item => {  
+            // 获取li内部的p元素  
+            const pElement = item.querySelector('p');  
+            // 为li元素设置过渡效果（这应该在样式变化之前完成）  
+            item.style.transition = 'transform 0.3s ease, background-color 0.3s ease';  
+            // 注意：p元素的color过渡可以单独设置，但通常不需要（除非你要改变其他属性）  
+            if (pElement) {  
+                pElement.style.transition = 'color 0.3s ease'; // 如果需要的话  
+            }  
+            item.addEventListener('mouseenter', function() {  
+                // 鼠标进入时放大li并更改p元素的文字颜色  
+                this.style.transform = 'scale(1.075)';  
+                this.style.backgroundColor = 'rgba(199, 199, 199, 0.5)';  
+                this.style.border = 'none';  
+                if (pElement) {  
+                    pElement.style.color = 'rgb(30,144,255)'; // 直接修改p元素的文字颜色  
+                }  
+            });  
+            item.addEventListener('mouseleave', function() {  
+                // 鼠标离开时恢复原状  
+                this.style.transform = 'scale(1)';  
+                this.style.backgroundColor = 'rgba(199, 199, 199, 0)';  
+                this.style.border = '1px solid rgb(191, 191, 191)';  
+                if (pElement) {  
+                    pElement.style.color = 'rgb(84,84,84)'; // 或者设置为具体的颜色以恢复默认  
+                }  
+            });  
+        });
+
+        const changeLinks = document.querySelectorAll('.change');  
+        // 为每个元素添加mouseenter和mouseleave事件监听器  
+        changeLinks.forEach(link => {  
+            link.style.transition = 'color 0.3s ease'; 
+            link.addEventListener('mouseenter', function() {  
+                // 鼠标悬停时改变颜色  
+                this.style.color = 'rgb(30,144,255)'; 
+            });  
+            link.addEventListener('mouseleave', function() {  
+                // 鼠标离开时恢复颜色（如果需要的话）  
+                // 这里你可以将颜色改回初始值，或者根据需要设置其他颜色  
+                this.style.color = 'rgb(84,84,84)'; // 或者使用''来继承CSS中的颜色  
+            });  
+        });    
+
+        var link = document.querySelector('a.top-margin1.change11'); // 或者使用其他选择器来定位你的<a>标签  
+        link.addEventListener('mouseenter', function() {  
+            // 鼠标悬停时改变颜色  
+            this.style.color = 'rgb(30,144,255)';  
+            // 找到并改变<img>的src属性  
+            var img = this.querySelector('img');  
+                img.src = 'add2.png';  
+        });  
+        
+        link.addEventListener('mouseleave', function() {  
+            // 可以添加mouseleave事件来恢复原始状态（如果需要）  
+            this.style.color = '#c4c4c4'; // 恢复到原始颜色  
+            var img = this.querySelector('img');  
+            img.src = 'add11.png'; // 恢复到原始图片  
+        });
+
+        var link1 = document.querySelector('a.top-margin11.change11'); // 或者使用其他选择器来定位你的<a>标签  
+        link1.addEventListener('mouseenter', function() {  
+            // 鼠标悬停时改变颜色  
+            this.style.color = 'rgb(30,144,255)';  
+            // 找到并改变<img>的src属性  
+            var img = this.querySelector('img');  
+            img.src = 'add2.png';  
+        });  
+        
+        link1.addEventListener('mouseleave', function() {  
+            // 可以添加mouseleave事件来恢复原始状态（如果需要）  
+            this.style.color = '#c4c4c4'; // 恢复到原始颜色  
+            var img = this.querySelector('img');  
+            img.src = 'add11.png'; // 恢复到原始图片  
+        });
+
+        const changeLinks1 = document.querySelectorAll('.change1');  
+        // 为每个元素添加mouseenter和mouseleave事件监听器  
+        changeLinks1.forEach(link => {  
+            link.style.transition = 'color 0.3s ease'; 
+            link.addEventListener('mouseenter', function() {  
+                // 鼠标悬停时改变颜色  
+                this.style.color = 'rgb(30,144,255)';  
+            });  
+            link.addEventListener('mouseleave', function() {  
+                // 鼠标离开时恢复颜色（如果需要的话）  
+                // 这里你可以将颜色改回初始值，或者根据需要设置其他颜色  
+                this.style.color = 'rgb(84,84,84)'; // 或者使用''来继承CSS中的颜色  
+            });  
+        });   
+
+        function handleSelectChange(event) {  
+            var select = event.target; // 获取触发事件的select元素  
+            var value = select.options[select.selectedIndex].value; // 获取选中项的值  
+            if (value) {  
+                window.open(value, '_blank');  
+            }  
+        }  
+        // 事件委托，将事件监听器添加到包含所有select的父元素上  
+        document.getElementById('departmentSelectors').addEventListener('change', handleSelectChange);  
+    </script>
+</body>
+<!-- 结束啦 -->
+</html>
+<!-- @2024qiuyi all rights reserved ® jiyun software™ -->
